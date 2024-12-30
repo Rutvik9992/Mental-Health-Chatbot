@@ -1,0 +1,1848 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up","how is it going"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Ribot","I'm Ribot","I'm Ribot your virtual assistant"]
+  },
+
+  {"tag": "mentalhealth",
+  "patterns": ["what is mental health","What does the term 'mental health' mean?",
+"How would you define mental health?",
+"Can you explain the concept of mental health?",
+"What is the definition of mental health?",
+"What do we mean when we talk about mental health?",
+"How can we understand the concept of mental health?",
+"What is encompassed within the term 'mental health'?",
+"Could you provide an explanation of mental health?",
+"What is the meaning of mental health in the context of well-being?",
+"How can we characterize mental health?"],
+  "responses": ["Mental health is Define as mental well-being that enables people to cope with the stresses of life, realize their abilities, learn well and work well, and contribute to their community."]
+  },
+
+  {"tag": "typesdisorder",
+  "patterns": ["what are the different types of mental disorder","types of mental disorder","which are the different menatal health disorder you know about","different menatal health disorder you know about","What are some examples of mental disorders?",
+"Can you list different categories of mental disorders?",
+"What are the various types of mental illnesses?",
+"Could you provide an overview of different mental disorders?",
+"What classifications exist for mental disorders?",
+"What are the specific categories of mental health conditions?",
+"Can you describe the different forms of mental illness?",
+"What types of psychiatric disorders are recognized?",
+"What are some common mental health conditions?",
+"Could you explain the different classifications of mental disorders?"],
+  "responses": ["types of mental disorder depression, anxiety, Addictive disorder, Sleep disorder, Dissociative disorder, Autism spectrum disorder (ASD), Attention-deficit/hyperactivity disorder (ADHD),  Eating disorder, hypertension ,  bipolar disorder, obsessive-compulsive disorder (OCD) , panic disorder,social anxiety disorder"]
+  },
+    
+  {"tag": "info",
+  "patterns": ["what information can you provide about mental health disorder","what information do you have about mental health disorder","what knowledge do you have about mental health disorder","What knowledge can you share about mental health disorders?",
+"What insights do you have regarding mental health conditions?",
+"What information can you provide about various mental disorders?",
+"Can you give me an overview of mental health disorders?",
+"What details can you share about different types of mental illnesses?",
+"Could you provide some information on common mental health disorders?",
+"What knowledge do you possess about specific mental health conditions?",
+"What can you tell me about the symptoms and treatments of mental health disorders?",
+"Can you provide a comprehensive understanding of mental health disorders?",
+"What resources and support are available for individuals with mental health disorders?"],
+  "responses": ["i can provide information such as defination , causes, symptoms, risk factors, diagnosis, treatments, medical test, medications, therapy, yogasanas, diet, prevention measures, side effects medications, life style changes , department, best doctors for different mental disorder "]
+  },
+    
+   {"tag": "avoid",
+  "patterns": ["what food should i avoid for good mental health","food should avoid for good menatl health","Which foods are detrimental to mental health and should be avoided?",
+"What foods have a negative impact on mental well-being that I should steer clear of?",
+"Can you provide a list of foods that should be avoided for promoting good mental health?",
+"What are some food items that I should exclude from my diet to support optimal mental well-being?",
+"Are there specific dietary choices that I should avoid to enhance my mental health?",
+"What foods should I stay away from to maintain good mental well-being?",
+"Which food groups should I eliminate from my diet for the sake of my mental health?",
+"What are the foods that have been associated with poor mental health that I should refrain from consuming?",
+"Are there any particular foods that have been linked to negative effects on mental health that I should avoid?",
+"Can you provide guidance on which foods to exclude from my diet to promote good mental health?"],
+  "responses": ["processed foods,fried foods,refined grains, such as white bread,sugary products,beer."]
+  },
+
+  {"tag": "mentaldiet",
+  "patterns": ["what is the best diet for mental health","best diet for mental health","What dietary approach is considered the most beneficial for promoting mental health?",
+"Can you provide insights on the ideal diet for optimizing mental well-being?",
+"What eating plan is recommended as the best for supporting good mental health?",
+"What is considered the optimal diet for enhancing mental well-being?",
+"Which specific diet is regarded as the most effective for maintaining good mental health?",
+"What is the recommended dietary pattern for promoting optimal mental health?",
+"What eating habits are believed to be the most conducive to positive mental well-being?",
+"Can you suggest a specific diet that is known to have a positive impact on mental health?",
+"What nutritional approach is advised as the best for supporting overall mental well-being?",
+"Which dietary regimen is considered the most suitable for nurturing good mental health?"],
+  "responses": ["best diet for mental health are Mediterranean , low calorie , Intermittent fasting, polyphenols."]
+  },
+
+  {"tag": "Mediterraneandiet",
+  "patterns": ["what is Mediterranean diet", "Mediterranean diet","What does the term 'Mediterranean diet' refer to?",
+"Can you explain the concept of the Mediterranean diet?",
+"What is meant by the Mediterranean diet?",
+"Could you provide an overview of the Mediterranean diet?",
+"What are the key components of the Mediterranean diet?",
+"What characterizes the Mediterranean diet?",
+"Can you describe the dietary pattern of the Mediterranean diet?",
+"What foods are typically included in the Mediterranean diet?",
+"How is the Mediterranean diet structured?",
+"What are the principles behind the Mediterranean diet?"],
+  "responses": ["Mediterranean diet inludesplenty of fruits and vegetables,whole grains,potatoes,cereals,beans and pulses,nuts and seeds,olive oil,low-to-moderate amounts of dairy products, fish, and poultry,very little red meat,eggs up to four times a week,low-to-moderate amounts of wine"]
+  },
+
+  {"tag": "lowcaloriediet",
+  "patterns": ["what is low calorie diet", "low calorie diet","What is meant by a low-calorie diet?",
+"Can you explain the concept of a low-calorie diet?",
+"What does the term 'low-calorie diet' refer to?",
+"Could you provide an overview of a low-calorie diet?",
+"What are the key features of a low-calorie diet?",
+"What characterizes a low-calorie diet?",
+"Can you describe the principles of a low-calorie diet?",
+"What is the purpose of following a low-calorie diet?",
+"How is a low-calorie diet typically structured?",
+"What are the dietary restrictions or guidelines of a low-calorie diet?"],
+  "responses": ["A low calorie diet is define as a dietary approach that involves consuming a reduced number of calories each day in order to promote weight loss or manage certain health conditions."]
+  },
+
+  {"tag": "Intermittentfasting",
+  "patterns": ["what is Intermittent fasting", "Intermittent fasting","What does the term 'Intermittent fasting' mean?",
+"Can you explain the concept of Intermittent fasting?",
+"What is meant by Intermittent fasting?",
+"Could you provide an overview of Intermittent fasting?",
+"What are the key principles of Intermittent fasting?",
+"What characterizes Intermittent fasting?",
+"Can you describe the practice of Intermittent fasting?",
+"What is the purpose or objective of following Intermittent fasting?",
+"How is Intermittent fasting typically structured?",
+"What are the different methods or approaches to Intermittent fasting?"],
+  "responses": ["Intermittent fasting is define as a dietary approach that involves alternating periods of fasting and non-fasting, or restricted eating, over a specified period of time. It is not a specific diet plan, but rather an eating pattern that can be adapted to different dietary approaches, such as low-carb, high-fat, or plant-based diets"]
+  },
+    
+  {"tag": "depression",
+  "patterns": ["what is depression ", "depression","What is the definition of depression?",
+"Can you explain what depression is?",
+"What does the term 'depression' refer to?",
+"Could you provide an overview of depression?",
+"What are the key characteristics of depression?",
+"What is the meaning of depression?",
+"Can you describe the symptoms and signs of depression?",
+"What is the difference between sadness and depression?",
+"How is depression diagnosed and treated?",
+"What impact does depression have on a person's daily life?"],
+  "responses": ["Depression is a mental health disorder that affects a person's mood, thoughts, behavior, and overall quality of life. It is a common and serious medical illness that negatively impacts how a person feels, thinks, and behaves, causing persistent feelings of sadness, hopelessness, and loss of interest in daily activities."]
+  },
+
+   {"tag": "causesdepression",
+  "patterns": ["what are the causes of depression", "causes of depression","What factors contribute to the development of depression?",
+"Can you explain the possible causes of depression?",
+"What are the underlying reasons for depression?",
+"Could you provide insights into the origins of depression?",
+"What are the potential triggers or causes of depression?",
+"What factors are believed to be responsible for the onset of depression?",
+"Can you describe the various etiological factors of depression?",
+"What are the known influences that can lead to depression?",
+"How do genetics and environment play a role in the development of depression?",
+"What are the contributing factors that can lead to the manifestation of depression?"],
+  "responses": ["Depression can be caused by a variety of factors, including genetics, biology, environmental stressors, and life events such as trauma, loss, or major changes. It can also occur in conjunction with other mental health conditions such as anxiety or substance abuse."]
+  },
+
+   {"tag": "symptomsdepression",
+  "patterns": ["what are the symptoms of depression","symptoms of depression","What are the signs and symptoms of depression?",
+"Can you describe the common symptoms of depression?",
+"What are the indicators or manifestations of depression?",
+"Could you provide an overview of the symptoms associated with depression?",
+"What are the typical signs that someone may be experiencing depression?",
+"Can you list the behavioral and emotional symptoms of depression?",
+"What physical and cognitive symptoms are commonly associated with depression?",
+"What are the telltale signs that someone might be suffering from depression?",
+"How does depression typically present itself in terms of symptoms?",
+"What are the recognizable symptoms that can help identify depression in individuals?"],
+  "responses": ["Symptoms of depression can vary from person to person but often include persistent feelings of sadness or emptiness, decreased energy or motivation, changes in appetite or sleep patterns, difficulty concentrating or making decisions, and thoughts of self-harm or suicide."]
+  },
+
+  {"tag": "treatmentdepression",
+  "patterns": ["what are the treatment for depression", "treatment of depression","What are the available treatment options for depression?",
+"Can you explain the different approaches to treating depression?",
+"What are the recommended treatments for depression?",
+"Could you provide an overview of the treatment options for depression?",
+"What are the various methods used in the management of depression?",
+"Can you describe the therapeutic interventions for depression?",
+"What are the strategies and modalities used in the treatment of depression?",
+"What are the common therapeutic approaches for addressing depression?",
+"How is depression typically treated in a clinical setting?",
+"What are the evidence-based treatments for depression?"],
+  "responses": ["Depression can be treated with a variety of interventions, including therapy, medication, lifestyle changes, and self-care strategies. Early identification and treatment can greatly improve outcomes for individuals with depression. It is important to seek professional help if you or someone you know is experiencing symptoms of depression.."]
+  },
+
+  {"tag": "diagnosisdepression",
+  "patterns": ["what are the diagnosis of deprssion", "diagnosis of depression","What are the methods used for diagnosing depression?",
+"Can you explain the diagnostic process for depression?",
+"What are the criteria and procedures involved in the diagnosis of depression?",
+"Could you provide an overview of the diagnostic criteria for depression?",
+"What are the assessments and tools used to diagnose depression?",
+"Can you describe the diagnostic guidelines for identifying depression?",
+"What are the steps taken by healthcare professionals to diagnose depression?",
+"What are the indicators and tests used in the diagnosis of depression?",
+"How is depression typically diagnosed in a clinical setting?",
+"What are the key factors considered when making a diagnosis of depression?"],
+  "responses": ["A healthcare professional will typically diagnose depression by conducting a thorough evaluation of the patient's symptoms, medical history, and current medications. They may also perform a physical exam or order laboratory tests to rule out any underlying medical conditions that could be contributing to the symptoms."]
+  },
+
+  {"tag": "medicationsdepression",
+  "patterns": ["what are the medications for depression", "medications of depression","What are the commonly prescribed medications for depression?",
+"Can you explain the pharmacological treatments available for depression?",
+"What medications are typically used in the management of depression?",
+"Could you provide an overview of the drug options for treating depression?",
+"What are the specific antidepressant medications used for depression?",
+"Can you describe the different classes of medications prescribed for depression?",
+"What are the commonly recommended drugs for addressing depression?",
+"What are the pharmaceutical treatments available for managing depression?",
+"How do antidepressant medications help in the treatment of depression?",
+"What are the different types of medication commonly used to treat depression?"],
+  "responses": ["Sedatives and hypnotics, Beta-blockers, Antidepressants, Benzodiazepines"]
+  },
+
+  {"tag": "therapydepression",
+  "patterns": ["what is the therapy for depression","therapy of depression","What are the therapeutic approaches for treating depression?",
+"Can you explain the types of therapy used in the management of depression?",
+"What is the recommended therapy for addressing depression?",
+"Could you provide an overview of the therapeutic options for depression?",
+"What are the specific counseling or psychotherapy techniques used in the treatment of depression?",
+"Can you describe the different modalities of therapy employed for depression?",
+"What are the commonly recommended therapeutic interventions for depression?",
+"What types of therapy have been found effective in treating depression?",
+"How does therapy contribute to the treatment of depression?",
+"What are the evidence-based psychological interventions for depression?"],
+  "responses": ["Therapy, such as cognitive behavioral therapy (CBT), can also be an effective treatment for depression. CBT involves working with a trained therapist to identify negative thought patterns and develop coping strategies to manage symptoms. Other types of therapy, such as interpersonal therapy (IPT) or psychodynamic therapy, may also be recommended depending on the patient's needs."]
+  },
+
+  {"tag": "helpdepression",
+  "patterns": ["How can I help someone with depression?","What can I do to support someone who is experiencing depression?",
+"Can you provide guidance on how to assist someone with depression?",
+"How can I be helpful to a person struggling with depression?",
+"Could you offer some advice on how to best support someone with depression?",
+"What are some ways I can be there for someone dealing with depression?",
+"Can you suggest ways to offer assistance and understanding to someone with depression?",
+"What actions can I take to be a source of support for someone experiencing depression?",
+"What are some practical steps I can take to help a person going through depression?",
+"How can I provide emotional support to someone struggling with depression?",
+"What are some things I should keep in mind when supporting someone with depression?"],
+  "responses": ["If someone you know is struggling with depression, it is important to offer support and encouragement. Encourage them to seek professional help and offer to help them find a healthcare provider or therapist. It is also important to listen without judgment and avoid minimizing their feelings or offering unsolicited advice."]
+  },
+
+  {"tag": "lifestylechangesdepression",
+  "patterns": ["what are the lifestyle changes one should make to manage depression", "lifestyle changes for depression","What lifestyle modifications are recommended for managing depression?",
+"Can you suggest lifestyle changes that can help in coping with depression?",
+"What are the lifestyle adjustments one should consider to better manage depression?",
+"Could you provide insights on the lifestyle factors that can impact depression?",
+"What changes in daily habits and routines can be beneficial for individuals dealing with depression?",
+"Can you describe the recommended lifestyle alterations for effectively managing depression?",
+"What are the lifestyle choices that can contribute to better mental well-being and reduced symptoms of depression?",
+"What lifestyle adjustments have been found to be effective in supporting individuals with depression?",
+"How can modifying aspects of one's lifestyle positively impact the management of depression?",
+"What are the lifestyle-related recommendations for individuals seeking to manage their depression effectively?"],
+  "responses": [" lifestyle changes such as regular exercise, healthy eating, and stress-reducing activities like meditation or yoga can also help manage symptoms of depression."]
+  },
+
+  {"tag": "yogadepression",
+  "patterns": ["what yogasanas should one perform to manage depression", "yogasanas for depression", "yoga for depression","Which yogasanas are beneficial for managing depression?",
+"Can you recommend specific yoga poses for coping with depression?",
+"What are the recommended yogasanas for individuals seeking to manage their depression?",
+"Could you provide insights on the yoga postures that can help in the management of depression?",
+"What yoga poses are known to have a positive impact on mental well-being and depression?",
+"Can you describe the yogasanas that are particularly effective in supporting individuals with depression?",
+"What specific yoga exercises or postures are recommended for individuals dealing with depression?",
+"What yogic practices can one incorporate into their routine to better manage depression?",
+"How can practicing certain yogasanas contribute to the management of depression?",
+"What are the yogasanas that have been found to be helpful in alleviating symptoms of depression?"],
+  "responses": ["Child’s Pose (Balasana): This is a restorative pose that can help calm the mind and relieve stress and anxiety., Cat-Cow Stretch (Marjaryasana/Bitilasana): This pose is a gentle warm-up that can help improve spinal flexibility and                   relieve tension in the neck and back.,Downward Facing Dog (Adho Mukha Svanasana): This pose can help stretch the hamstrings, calves, and spine, as well as promote relaxation and reduce stress.,Warrior II (Virabhadrasana II): This pose can help build strength in the legs and core, while also promoting focus and grounding.,Tree Pose (Vrksasana): This pose can help improve balance and focus, as well as promote a sense of groundedness and stability.,Bridge Pose (Setu Bandha Sarvangasana): This pose can help relieve tension in the lower back and hips, while also promoting relaxation and reducing stress."]
+  },
+
+  {"tag": "sideeffectsAnti",
+  "patterns": ["what are the side effects of Antidepressant", "side effects of Antidepressant","What are the potential adverse effects of antidepressant medication?",
+"Can you explain the possible side effects of taking antidepressants?",
+"What are the known risks or drawbacks of using antidepressant drugs?",
+"Could you provide an overview of the side effects associated with antidepressants?",
+"What are the common unwanted effects of antidepressant medication?",
+"Can you describe the potential complications or downsides of taking antidepressants?",
+"What are the undesired outcomes or reactions that can occur with antidepressant use?",
+"What are the reported adverse events or reactions associated with antidepressant drugs?",
+"How do antidepressants potentially affect individuals in terms of side effects?",
+"What are the known downsides or limitations of using antidepressant medications?"],
+  "responses": ["Nausea, vomiting, diarrhea, or other digestive problems,Headache or dizziness,Insomnia or sleepiness,Changes in appetite or weight,Sexual dysfunction,Increased risk of suicidal thoughts or behaviors, particularly in children, adolescents, and young adults,Serotonin syndrome, a rare but serious condition that can occur when too much serotonin accumulates in the body,Withdrawal symptoms if the medication is stopped abruptly."]
+  },
+
+  {"tag": "Antidepressant",
+  "patterns": ["what is Antidepressant" ,"Antidepressant","What is the definition of antidepressant?",
+"Can you explain what an antidepressant is?",
+"What does the term 'antidepressant' refer to?",
+"Could you provide an overview of antidepressant medication?",
+"What are the characteristics and functions of antidepressants?",
+"Can you describe the purpose and usage of antidepressant drugs?",
+"What are the medications classified as antidepressants?",
+"What is the role of antidepressants in the treatment of mental health conditions?",
+"How do antidepressant medications work in the body?",
+"What are the primary uses and benefits of antidepressant drugs?"],
+  "responses": ["Antidepressants are a class of medications used to treat depression and other mental health conditions. "]
+  },
+
+  {"tag": "emergency",
+  "patterns": ["When to get emergency help","When should one seek emergency assistance?",
+"Can you provide guidance on when to seek immediate help?",
+"In what situations is it necessary to call for emergency assistance?",
+"When is it crucial to seek urgent help?",
+"What are the indicators that someone should seek emergency assistance?",
+"Can you describe the circumstances that require immediate medical attention?",
+"What are the signs that necessitate reaching out for emergency help?",
+"When should someone consider calling emergency services?",
+"What are the red flags that indicate the need for immediate emergency assistance?",
+"What are the critical situations that warrant seeking emergency help?"],
+  "responses": ["If you think you may hurt yourself or attempt suicide, call 112 in the Pune local emergency number immediately. "]
+  },
+    
+  {"tag": "typesAntidepressant",
+  "patterns": ["what are the types of Antidepressant", "types of Antidepressant","What are the different categories of antidepressant medication?",
+"Can you explain the classification of antidepressants?",
+"What are the various types of antidepressant drugs available?",
+"Could you provide an overview of the different classes of antidepressants?",
+"What are the specific groups or types of antidepressant medications?",
+"Can you describe the classification system for antidepressant drugs?",
+"What are the distinct categories of antidepressants based on their mechanisms of action?",
+"What are the subtypes or classes of antidepressant medications?",
+"How are antidepressant drugs categorized according to their pharmacological properties?",
+"What are the different types or families of antidepressant medications?"],
+  "responses": ["serotonin, norepinephrine, and dopamine, that affect mood and emotions."]
+  },
+
+  {"tag": "preventiondepression",
+  "patterns": ["prevention of depression","how to prevent depression","What can be done to prevent depression?",
+"Can you provide strategies for preventing depression?",
+"What measures can be taken to avoid or minimize the risk of depression?",
+"Could you offer insights on how to proactively prevent depression?",
+"What are the preventive steps one can take to reduce the likelihood of developing depression?",
+"Can you describe the preventive measures or practices that may help in preventing depression?",
+"What are the lifestyle choices and habits that contribute to the prevention of depression?",
+"What actions can individuals take to safeguard their mental well-being and prevent depression?",
+"How can early intervention and support systems help in preventing depression?",
+"What are the preventive strategies and interventions recommended for reducing the risk of depression?"],
+  "responses": ["Take steps to control stress, to increase your resilience and boost your self-esteem, Reach out to family and friends,especially in times of crisis, to help you weather rough spells,Get treatment at the earliest sign of a problem to help prevent depression from worsening,Consider getting long-term maintenance treatment to help prevent a relapse of symptoms. "]
+  },    
+    
+  {"tag": "Departmentsdepression",
+  "patterns": ["Departments that treat depression", "which department treats depression","Which departments specialize in the treatment of depression?",
+"Can you provide information on the specific medical departments that address depression?",
+"What are the healthcare departments that focus on treating depression?",
+"Could you provide an overview of the departments dedicated to the management of depression?",
+"What departments within healthcare organizations are responsible for treating depression?",
+"Can you describe the specialized departments that offer services for individuals with depression?",
+"What are the specific branches or units in healthcare institutions that deal with depression?",
+"Which medical specialties or departments are involved in the treatment of depression?",
+"How are healthcare resources allocated to different departments for addressing depression?",
+"What departments or divisions within mental health facilities handle the treatment of depression?"],
+  "responses": ["Psychiatry and Psychology"]
+  },
+
+  {"tag": "anxiety",
+  "patterns": ["what is anxiety", "anixety","What is the definition of anxiety?",
+"Can you explain what anxiety is?",
+"What does the term 'anxiety' refer to?",
+"Could you provide an overview of anxiety and its meaning?",
+"What are the characteristics and symptoms of anxiety?",
+"Can you describe the concept of anxiety and its manifestations?",
+"What are the key features and signs of anxiety?",
+"What is the difference between normal anxiety and an anxiety disorder?",
+"How is anxiety typically experienced by individuals?",
+"What is the psychological and physiological nature of anxiety?"],
+  "responses": ["Anxiety is a normal response to stress, but when it becomes excessive or overwhelming, it can interfere with daily life. Anxiety disorders are a group of mental health conditions characterized by excessive and persistent fear, worry, or anxiety that is out of proportion to the situation and interferes with daily activities"]
+  },
+
+   {"tag": "causesanxiety",
+  "patterns": ["what are the causes of  anxiety", "causes of  anxiety","What factors contribute to the development of anxiety?",
+"Can you explain the possible causes of anxiety?",
+"What are the underlying reasons or triggers for anxiety?",
+"Could you provide an overview of the potential causes of anxiety?",
+"What are the various factors that can lead to anxiety?",
+"Can you describe the influences or origins of anxiety?",
+"What are the known etiological factors of anxiety?",
+"What are the environmental and genetic factors that may contribute to anxiety?",
+"How do life events and experiences contribute to the development of anxiety?",
+"What are the psychological, biological, and social factors associated with anxiety?"],
+  "responses": ["Family history of anxiety disordersChemical imbalances in the brain,Trauma or stressful life experiences,Chronic physical illness,Substance abuse or withdrawal,Personality factors, such as being a perfectionist or having low self-esteem"]
+  },
+
+  {"tag": "symptomsanxiety",
+  "patterns": ["what are the symptoms of anxiety", "symptoms of anxiety","What are the signs and symptoms of anxiety?",
+"Can you describe the manifestations of anxiety?",
+"What are the common symptoms experienced by individuals with anxiety?",
+"Could you provide an overview of the indicators and physical sensations associated with anxiety?",
+"What are the behavioral and physiological signs of anxiety?",
+"Can you explain how anxiety presents itself through various symptoms?",
+"What are the typical emotional and cognitive symptoms of anxiety?",
+"What are the ways in which anxiety can affect a person's thoughts, feelings, and behaviors?",
+"How does anxiety manifest in terms of physical and psychological symptoms?",
+"What are the recognizable markers that may indicate the presence of anxiety?"],
+  "responses": ["Feeling nervous, restless or tense,Having a sense of impending danger, panic or doom,Having an increased heart rate,Breathing rapidly (hyperventilation),Sweating,Trembling,Feeling weak or tired,Trouble concentrating or thinking about anything other than the present worry,Having trouble sleeping,Experiencing gastrointestinal (GI) problems,Having difficulty controlling worry,Having the urge to avoid things that trigger anxiety"]
+  },
+
+  {"tag": "treatmentanxiety",
+  "patterns": ["what are the treatment for anxiety", "treatment for anxiety","What are the available treatments for anxiety?",
+"Can you provide information on the treatment options for anxiety?",
+"What are the recommended interventions for managing anxiety?",
+"Could you provide an overview of the therapeutic approaches used in the treatment of anxiety?",
+"What are the specific treatments or therapies utilized for anxiety?",
+"Can you describe the different modalities of treatment for anxiety?",
+"What are the commonly prescribed medications for anxiety?",
+"What are the evidence-based psychological interventions for anxiety?",
+"How do lifestyle modifications and self-care practices contribute to the treatment of anxiety?",
+"What are the holistic approaches and alternative therapies used in the management of anxiety?"],
+  "responses": ["The treatment for anxiety disorders typically involves a combination of medication, therapy, and lifestyle changes."]
+  },
+
+  {"tag": "diagnosisanxiety",
+  "patterns": ["what are the diagnosis of anxiety", "diagnosis of anxiety","What is involved in the diagnosis of anxiety?",
+"Can you explain the process of diagnosing anxiety?",
+"What are the methods used to determine the presence of anxiety?",
+"Could you provide an overview of the diagnostic criteria for anxiety?",
+"What are the assessments and evaluations conducted for the diagnosis of anxiety?",
+"Can you describe the tools and techniques utilized in the diagnostic process for anxiety?",
+"What are the steps involved in identifying and diagnosing anxiety disorders?",
+"What are the signs and symptoms considered in the diagnostic evaluation of anxiety?",
+"How do mental health professionals differentiate anxiety from other conditions during the diagnostic process?",
+"What are the standardized guidelines or protocols followed in the diagnosis of anxiety?"],
+  "responses": ["Anxiety disorders are typically diagnosed by a mental health professional. Diagnosis may involve a physical exam, psychological evaluation, and discussion of symptoms and medical history."]
+  },
+
+  {"tag": "medicationsanxiety",
+  "patterns": ["what are the medications for anxiety","medications for anxiety","What are the prescribed medications for treating anxiety?",
+"Can you provide information on the pharmacological options for anxiety?",
+"What medications are commonly used to manage symptoms of anxiety?",
+"Could you provide an overview of the drug therapies available for anxiety?",
+"What are the specific pharmaceutical interventions for anxiety?",
+"Can you describe the different classes of medications used in the treatment of anxiety?",
+"What are the commonly prescribed drugs for anxiety management?",
+"What are the psychotropic medications recommended for anxiety disorders?",
+"How do anti-anxiety medications work and what are their potential benefits?",
+"What are the options for medication-based treatments for individuals with anxiety?"],
+  "responses": ["Selective serotonin reuptake inhibitors (SSRIs) such as Prozac and Zoloft,Serotonin-norepinephrine reuptake inhibitors (SNRIs) such as Effexor and Cymbalta,Benzodiazepines such as Xanax and Ativan,Beta-blockers such as propranolol."]
+  },
+
+  {"tag": "therapyanxiety",
+  "patterns": ["what is the therapy for anxiety", "therapy for anxiety","What are the therapeutic approaches for anxiety?",
+"Can you provide information on the psychological therapies used in the treatment of anxiety?",
+"What are the recommended counseling or psychotherapy techniques for anxiety?",
+"Could you provide an overview of the therapeutic modalities employed in anxiety treatment?",
+"What are the specific interventions or strategies used in therapy for anxiety?",
+"Can you describe the different types of therapy available for individuals with anxiety?",
+"What are the evidence-based psychological treatments for anxiety disorders?",
+"What are the commonly used psychotherapeutic approaches for managing anxiety?",
+"How do cognitive-behavioral therapies help individuals with anxiety?",
+"What are the non-pharmacological interventions for anxiety, such as therapy?"],
+  "responses": ["Cognitive-behavioral therapy (CBT),Exposure therapy,Acceptance and commitment therapy (ACT),Dialectical behavior therapy (DBT),Interpersonal therapy (IPT)."]
+  },
+
+  {"tag": "lifestylechangesanxiety",
+  "patterns": ["what are the lifestyle changes one should make to manage anxiety", "lifestyle changes for anxiety","What lifestyle modifications are recommended for managing anxiety?",
+"Can you provide guidance on the lifestyle changes that can help in coping with anxiety?",
+"What are the suggested lifestyle adjustments for individuals seeking to manage their anxiety?",
+"Could you provide an overview of the lifestyle factors that contribute to anxiety management?",
+"What are the specific lifestyle changes that can support individuals in managing their anxiety?",
+"Can you describe the lifestyle habits and practices that are beneficial for anxiety management?",
+"What are the recommended adjustments in daily routine and behavior for individuals with anxiety?",
+"What lifestyle choices and habits can one adopt to better manage anxiety?",
+"How can incorporating certain lifestyle changes contribute to the management of anxiety?",
+"What are the lifestyle modifications that have been found to be helpful in alleviating symptoms of anxiety?"
+],
+  "responses": ["Regular exercise,Eating a healthy diet,Getting enough sleep,Reducing caffeine and alcohol intake,Practicing relaxation techniques such as deep breathing or meditation."]
+  },
+
+  {"tag": "yogaanxiety",
+  "patterns": ["what yogasanas should one perform to manage anxiety", "yogasanas for anxiety","yoga for anxiety","Which yoga asanas are beneficial for managing anxiety?",
+"Can you recommend specific yoga poses to help alleviate anxiety?",
+"What are the suggested yogasanas for individuals looking to manage their anxiety?",
+"Could you provide an overview of the yoga postures that are effective in managing anxiety?",
+"What are the specific yoga exercises that can assist in the management of anxiety?",
+"Can you describe the yoga poses or asanas that are known to be helpful in reducing anxiety?",
+"What are the recommended yoga sequences or postures for individuals with anxiety?",
+"Which yogic techniques or asanas are commonly practiced to alleviate symptoms of anxiety?",
+"How can incorporating certain yoga postures contribute to the management of anxiety?",
+"What are the yogic practices that have been found to be beneficial for individuals experiencing anxiety?"],
+  "responses": ["Hatha yoga, Restorative yoga,Yin yoga, Kundalini yoga."]
+  },
+
+  {"tag": "sideeffectsanxiety",
+  "patterns": ["what are the side effects of medications of anxiety", "side effects of medications of anxiety","What are the potential side effects of anxiety medications?",
+"Can you provide information on the adverse effects of medications used to treat anxiety?",
+"What are the known drawbacks or unwanted outcomes of anxiety medication?",
+"Could you provide an overview of the possible side effects associated with anxiety medications?",
+"What are the specific risks or potential negative consequences of taking medications for anxiety?",
+"Can you describe the commonly reported side effects of anxiety medications?",
+"What are the potential drawbacks or adverse reactions individuals may experience with anxiety medication?",
+"What are the known complications or unwanted outcomes of pharmacological treatment for anxiety?",
+"How do anxiety medications affect individuals and what are the potential downsides?",
+"What are the possible adverse reactions or unwanted effects of medications used in the treatment of anxiety?"],
+  "responses": ["Drowsiness or fatigue,Dizziness,Nausea,Headache,Blurred vision,Sexual dysfunction,Dependence or addiction."]
+  },
+    
+  {"tag": "typesanxiety",
+  "patterns": ["what are the types of anxiety", "types of anxiety","What are the different categories or types of anxiety disorders?",
+"Can you provide information on the classifications of anxiety?",
+"What are the specific types or subtypes of anxiety disorders?",
+"Could you provide an overview of the different forms of anxiety?",
+"What are the distinct classifications or groupings of anxiety conditions?",
+"Can you describe the various types or classifications of anxiety disorders?",
+"What are the recognized categories or divisions of anxiety disorders?",
+"What are the subgroups or variations of anxiety disorders?",
+"How are anxiety disorders categorized or classified based on their symptoms and characteristics?",
+"What are the different types or variations of anxiety disorders identified in the field of mental health?"],
+  "responses": ["generalized anxiety disorder (GAD), panic disorder, social anxiety disorder (SAD), and specific phobias."]
+  },
+
+  {"tag": "preventionanxiety",
+  "patterns": ["prevention of anxiety","how to prevent anxiety","What strategies can be implemented to prevent anxiety?",
+"Can you provide guidance on anxiety prevention techniques?",
+"What are the recommended measures for preventing anxiety?",
+"Could you provide an overview of the preventive steps individuals can take to avoid anxiety?",
+"What proactive approaches can be adopted to prevent the onset of anxiety?",
+"Can you describe the preventive measures and practices that can help in anxiety prevention?",
+"What are the proactive strategies individuals can employ to reduce the risk of developing anxiety?",
+"What are the lifestyle changes and coping mechanisms that contribute to anxiety prevention?",
+"How can early intervention and awareness help in preventing anxiety?",
+"What are the preventive measures and self-care practices that can be implemented to maintain good mental well-being and prevent anxiety?"],
+  "responses": ["Learning stress management techniques,Seeking support from friends and family,Avoiding alcohol and drug use,Getting regular exercise,Getting enough sleep."]
+  },    
+    
+  {"tag": "Departmentsanxiety",
+  "patterns": ["Departments that treat anxiety", "which department treats anxiety","Which medical specialty or department specializes in the treatment of anxiety?",
+"Can you provide information on the specific healthcare department that deals with anxiety?",
+"What department or field of medicine is responsible for treating anxiety disorders?",
+"Could you provide an overview of the healthcare professionals or departments involved in the treatment of anxiety?",
+"Which specific branch of medicine focuses on the diagnosis and management of anxiety?",
+"Can you describe the specialized department or healthcare providers who address anxiety-related concerns?",
+"What department or healthcare professionals should individuals seek for help with anxiety?",
+"Which medical specialists or departments are equipped to handle the treatment of anxiety disorders?",
+"How can individuals find the appropriate department or healthcare professionals for their anxiety treatment?",
+"What are the specific departments within the healthcare system that individuals can approach for the treatment of anxiety?"],
+  "responses": ["psychiatrists, psychologists, and licensed counselors. "]
+  },
+    
+  {"tag": "panic",
+  "patterns": ["what is panic disorder", "panic disorder", "panic attack","Can you explain what panic disorder is?",
+"What is the definition and description of panic disorder?",
+"What is meant by panic disorder and its characteristics?",
+"Could you provide an overview of panic disorder and its features?",
+"What are the key aspects and defining traits of panic disorder?",
+"Can you describe the nature and symptoms of panic disorder?",
+"What is the clinical understanding of panic disorder?",
+"What are the diagnostic criteria and criteria for identifying panic disorder?",
+"How is panic disorder differentiated from other anxiety disorders?",
+"What is the recognized psychological condition known as panic disorder?"],
+  "responses": ["Panic disorder is a type of anxiety disorder characterized by recurrent and unexpected panic attacks. Panic attacks are sudden episodes of intense fear or discomfort that peak within minutes "]
+  },
+
+   {"tag": "causespanic",
+  "patterns": ["what are the causes panic disorder", "causes panic disorder","What factors contribute to the development of panic disorder?",
+"Can you provide information on the potential causes of panic disorder?",
+"What are the known etiological factors or causes of panic disorder?",
+"Could you provide an overview of the possible reasons behind the occurrence of panic disorder?",
+"What are the specific triggers or underlying causes of panic disorder?",
+"Can you describe the various factors that are believed to play a role in the development of panic disorder?",
+"What are the potential biological, psychological, or environmental causes of panic disorder?",
+"What are the known risk factors or predisposing factors for panic disorder?",
+"How do genetic and environmental factors contribute to the development of panic disorder?",
+"What are the factors that have been associated with the onset of panic disorder?"],
+  "responses": ["The exact cause of panic disorder is unknown, but it is believed to be a combination of genetic, biological, and environmental factors."]
+  },
+
+  {"tag": "symptomspanic ",
+  "patterns": ["what are the symptoms of panic disorder" , "symptoms of panic disorder","What are the characteristic symptoms of panic disorder?",
+"Can you describe the specific signs and symptoms of panic disorder?",
+"What are the typical manifestations and indications of panic disorder?",
+"Could you provide an overview of the clinical symptoms and presentations of panic disorder?",
+"What are the specific physical and psychological symptoms associated with panic disorder?",
+"Can you outline the common signs and indicators that point to the presence of panic disorder?",
+"What are the recognizable behavioral and physiological symptoms of panic disorder?",
+"What are the known diagnostic criteria and symptomatology of panic disorder?",
+"How do individuals with panic disorder experience and exhibit symptoms?",
+"What are the telltale signs and symptoms that suggest the presence of panic disorder?"],
+  "responses": ["Symptoms of panic disorder include sudden and repeated attacks of fear or intense discomfort, palpitations, sweating, trembling, shortness of breath, chest pain, nausea, dizziness, and fear of losing control or dying."]
+  },
+
+  {"tag": "treatmentpanic",
+  "patterns": ["what are the treatment for panic disorder", "treatment for panic disorder","What are the therapeutic approaches for treating panic disorder?",
+"Can you provide information on the available treatments for panic disorder?",
+"What are the recommended interventions or therapies for panic disorder?",
+"Could you provide an overview of the treatment options for individuals with panic disorder?",
+"What are the specific modalities or strategies used in the treatment of panic disorder?",
+"Can you describe the different therapeutic techniques or approaches employed in panic disorder treatment?",
+"What are the evidence-based treatment methods for managing panic disorder?",
+"What are the commonly used psychotherapeutic and pharmacological treatments for panic disorder?",
+"How do cognitive-behavioral therapies and medications help individuals with panic disorder?",
+"What are the options for treatment-based approaches for individuals with panic disorder?"],
+  "responses": [" Treatment for panic disorder includes therapy such as cognitive-behavioral therapy (CBT), medications such as antidepressants and benzodiazepines, and lifestyle changes such as regular exercise, healthy eating, and stress management."]
+  },
+
+  {"tag": "diagnosispanic",
+  "patterns": ["what are the diagnosis of panic disorder" , "diagnosis of panic disorder","What is involved in the diagnostic process for panic disorder?",
+"Can you provide information on how panic disorder is diagnosed?",
+"What are the criteria and procedures used to diagnose panic disorder?",
+"Could you provide an overview of the diagnostic methods and assessments for panic disorder?",
+"What are the specific tools or tests utilized in the diagnosis of panic disorder?",
+"Can you describe the clinical evaluation and criteria used in diagnosing panic disorder?",
+"What are the key indicators and criteria that help professionals diagnose panic disorder?",
+"What are the steps or protocols followed in making a diagnosis of panic disorder?",
+"How do healthcare professionals differentiate panic disorder from other conditions during diagnosis?",
+"What are the diagnostic criteria and guidelines used for identifying panic disorder?"
+],
+  "responses": ["Diagnosis of panic disorder involves a physical exam and psychological evaluation, including a discussion of symptoms and medical history."]
+  },
+
+  {"tag": "medicationspanic",
+  "patterns": ["what are the medications for panic disorder","What are the common medications prescribed for panic disorder?",
+"What types of medications are typically used to treat panic disorder?",
+"Which medications are effective for managing panic disorder symptoms?",
+"What are some of the medications recommended for individuals with panic disorder?",
+"Can you provide a list of medications commonly prescribed for panic disorder?"],
+  "responses": ["Medications commonly used to treat panic disorder include selective serotonin reuptake inhibitors (SSRIs), serotonin-norepinephrine reuptake inhibitors (SNRIs), and benzodiazepines."]
+  },
+
+  {"tag": "therapypanic",
+  "patterns": ["what is the therapy for panic disorder", "therapy for panic disorder","What are the therapeutic approaches for treating panic disorder?",
+"Can you provide information on the available therapies for panic disorder?",
+"What are the recommended interventions or treatments for panic disorder?",
+"Could you provide an overview of the therapy options for individuals with panic disorder?",
+"What are the specific modalities or strategies used in the therapy for panic disorder?",
+"Can you describe the different therapeutic techniques or approaches employed in panic disorder treatment?",
+"What are the evidence-based therapy methods for managing panic disorder?",
+"What are the commonly used psychotherapeutic approaches for panic disorder?",
+"How does cognitive-behavioral therapy help individuals with panic disorder?",
+"What are the therapy-based approaches for individuals with panic disorder?"],
+  "responses": [" Therapy for panic disorder includes cognitive-behavioral therapy (CBT), exposure therapy, and relaxation techniques."]
+  },
+
+  {"tag": "lifestylechangespanic",
+  "patterns": ["what are the lifestyle changes one should make to manage panic disorder", "lifestyle changes to manage panic disorder",  "lifestyle changes to reduce or manage panic attacks","What lifestyle modifications can individuals make to effectively manage panic disorder?",
+"Can you provide guidance on the lifestyle changes that can help in the management of panic disorder?",
+"What are the recommended adjustments individuals should consider making to their lifestyle to better manage panic disorder?",
+"Could you provide an overview of the lifestyle alterations that contribute to the effective management of panic disorder?",
+"What specific changes in daily routines and habits can individuals adopt to better cope with panic disorder?",
+"Can you describe the lifestyle factors and modifications that have been found to be beneficial in managing panic disorder?",
+"What are the lifestyle-related strategies and practices that can contribute to the successful management of panic disorder?",
+"What are the lifestyle considerations and adjustments that individuals should be mindful of while managing panic disorder?",
+"How can changes in diet, exercise, and sleep patterns contribute to the effective management of panic disorder?",
+"What lifestyle changes have shown to be helpful in reducing the frequency and severity of panic attacks in individuals with panic disorder?"],
+  "responses": ["Lifestyle changes that can help manage symptoms of panic disorder include regular exercise, healthy eating, stress management, and avoiding caffeine and alcohol."]
+  },
+
+  {"tag": "yogapanic",
+  "patterns": ["what yogasanas should one perform to manage panic disorder" , "yogasanas for panic disorder","Which specific yoga asanas are recommended for managing panic disorder?",
+"Can you provide information on the yoga poses that can help in the management of panic disorder?",
+"What are the recommended yogasanas for individuals looking to manage panic disorder?",
+"Could you provide an overview of the specific yoga postures that contribute to the management of panic disorder?",
+"What yoga poses or asanas are known to have a positive impact on individuals with panic disorder?",
+"Can you describe the yogic exercises and postures that have been found to be beneficial in managing panic disorder?",
+"What are the yogic practices and asanas that can be incorporated into a routine for individuals with panic disorder?",
+"What are the specific breathing exercises and yoga poses that can help alleviate symptoms of panic disorder?",
+"How can the practice of certain yogasanas and meditation techniques contribute to the management of panic disorder?",
+"Which yogic postures and movements have shown to be effective in reducing anxiety and panic symptoms in individuals with panic disorder?"],
+  "responses": ["Hatha yoga, Restorative yoga,Yin yoga, Kundalini yoga."]
+  },
+
+  {"tag": "sideeffectspanic",
+  "patterns": ["what are the side effects of medications of panic disorder", "side effects of medications of panic disorder","What are the potential side effects of medications used for panic disorder?",
+"Can you provide information on the adverse effects of panic disorder medications?",
+"What are the known risks or potential drawbacks of taking medications for panic disorder?",
+"Could you provide an overview of the possible side effects associated with panic disorder medications?",
+"What are the specific undesired reactions or complications that may occur as a result of panic disorder medications?",
+"Can you describe the commonly reported side effects of medications prescribed for panic disorder?",
+"What are the potential physiological or psychological effects individuals may experience when taking panic disorder medications?",
+"What are the known complications or adverse events that can arise from the use of medications for panic disorder?",
+"How do different panic disorder medications vary in terms of their side effect profiles?",
+"What are the possible risks and drawbacks that individuals should be aware of when considering panic disorder medications?"],
+  "responses": ["Side effects of medications used to treat panic disorder can include drowsiness, dizziness, nausea, dry mouth, and sexual dysfunction."]
+  },
+
+  {"tag": "preventionpanic",
+  "patterns": ["prevention of panic attacks","how to prevent panic attacks","What preventive measures can individuals take to avoid or minimize panic attacks?",
+"Can you provide information on strategies for preventing panic attacks?",
+"What are the recommended steps individuals should follow to prevent panic attacks?",
+"Could you provide an overview of the preventive techniques or practices that can help in avoiding panic attacks?",
+"What specific actions or interventions can individuals undertake to reduce the likelihood of experiencing panic attacks?",
+"Can you describe the preventive measures and coping strategies that have been found effective in preventing panic attacks?",
+"What are the known self-care practices and techniques that can contribute to the prevention of panic attacks?",
+"What are the behavioral and cognitive strategies individuals can employ to prevent or manage panic attacks?",
+"How can lifestyle modifications and stress management techniques be used to prevent panic attacks?",
+"What are the steps that individuals can take to create a supportive and anxiety-reducing environment to prevent panic attacks?"],
+  "responses": ["There is no known way to prevent panic disorder, but early treatment can help manage symptoms and improve outcomes."]
+  },    
+    
+  {"tag": "Departmentspanic",
+  "patterns": ["Departments that treat panic disorder", "which department treats panic disorder","Which departments or specialties are involved in the treatment of panic disorder?",
+"Can you provide information on the medical disciplines or departments that address panic disorder?",
+"What are the healthcare professionals or departments that specialize in treating panic disorder?",
+"Could you provide an overview of the departments or specialties involved in the care of individuals with panic disorder?",
+"What specific medical or mental health departments are equipped to treat panic disorder?",
+"Can you describe the different departments or clinical settings where individuals with panic disorder can seek treatment?",
+"What are the professional fields or departments that collaborate in the comprehensive treatment of panic disorder?",
+"What are the multidisciplinary teams or departments that work together to provide care for panic disorder?",
+"How do different healthcare providers from various departments coordinate to treat individuals with panic disorder?",
+"What departments or clinics specialize in the diagnosis and treatment of panic disorder?"],
+  "responses": ["psychiatrists, psychologists, and licensed counselors. "]
+  },
+    
+  {"tag": "OCD",
+  "patterns": ["what is obsessive-compulsive disorder (OCD)", "obsessive-compulsive disorder", "ocd","Can you provide information on what obsessive-compulsive disorder (OCD) is?",
+"What is the definition and explanation of obsessive-compulsive disorder (OCD)?",
+"Could you provide an overview of the characteristics and features of obsessive-compulsive disorder (OCD)?",
+"What is the meaning and description of obsessive-compulsive disorder (OCD)?",
+"Can you explain the concept and nature of obsessive-compulsive disorder (OCD)?",
+"What are the key aspects and components of obsessive-compulsive disorder (OCD)?",
+"Could you provide a comprehensive understanding of obsessive-compulsive disorder (OCD) and its manifestations?",
+"What is the clinical definition and diagnostic criteria for obsessive-compulsive disorder (OCD)?",
+"Can you describe the behavioral and cognitive patterns associated with obsessive-compulsive disorder (OCD)?",
+"What are the essential features and symptoms that characterize obsessive-compulsive disorder (OCD)?"],
+  "responses": ["Obsessive-compulsive disorder (OCD) is a mental health disorder characterized by persistent, unwanted thoughts (obsessions) and repetitive behaviors (compulsions). "]
+  },
+
+   {"tag": "causesOCD",
+  "patterns": ["what are the causes OCD", "causes of OCD"],
+  "responses": ["The exact cause of panic disorder is unknown, but it is believed to be a combination of genetic, biological, and environmental factors."]
+  },
+
+  {"tag": "symptomsOCD ",
+  "patterns": ["what are the symptoms of OCD", "symptoms of OCD"],
+  "responses": ["Symptoms of OCD include intrusive, unwanted thoughts, urges or images, repetitive behaviors or mental acts, excessive cleaning or hand-washing, arranging objects in a specific way, checking repeatedly, and experiencing significant distress or interference in daily life due to these thoughts and behaviors."]
+  },
+
+  {"tag": "treatmentOCD",
+  "patterns": ["what are the treatment for OCD", "treatment for OCD"],
+  "responses": [" Treatment for OCD usually involves a combination of medication, therapy, and lifestyle changes. Cognitive-behavioral therapy (CBT) is often used to treat OCD, as well as exposure and response prevention (ERP) therapy. Medications such as selective serotonin reuptake inhibitors (SSRIs) and tricyclic antidepressants may also be used."]
+  },
+
+  {"tag": "diagnosisOCD",
+  "patterns": ["what are the diagnosis of OCD", "diagnosis of OCD"],
+  "responses": ["Diagnosis of OCD is typically made by a mental health professional based on a clinical interview and assessment of symptoms."]
+  },
+
+  {"tag": "medicationsOCD",
+  "patterns": ["what are the medications for OCD", "medications for OCD"],
+  "responses": ["Medications commonly used to treat OCD include selective serotonin reuptake inhibitors (SSRIs) such as fluoxetine, fluvoxamine, and sertraline, as well as tricyclic antidepressants such as clomipramine."]
+  },
+
+  {"tag": "therapyOCD",
+  "patterns": ["what is the therapy for OCD", "therapy for OCD"],
+  "responses": [" Therapy for OCD often involves cognitive-behavioral therapy (CBT) and exposure and response prevention (ERP) therapy."]
+  },
+
+  {"tag": "lifestylechangesOCD",
+  "patterns": ["what are the lifestyle changes one should make to manage OCD", "lifestyle changes of OCD"],
+  "responses": [" Lifestyle changes that may help manage symptoms of OCD include stress management techniques, regular exercise, and a healthy diet."]
+  },
+
+  {"tag": "yogaOCD",
+  "patterns": ["what yogasanas should one perform to manage ocd","yoga for ocd"],
+  "responses": ["Yoga and mindfulness practices may help manage symptoms of OCD by reducing stress and promoting relaxation. Specific yogasanas that may be helpful include Vajrasana, Shavasana, and Pranayama."]
+  },
+
+  {"tag": "sideeffectsOCD",
+  "patterns": ["what are the side effects of medications of OCD", "side effects of medications of OCD"],
+  "responses": ["Side effects of medications used to treat OCD may include nausea, dizziness, headache, dry mouth, and sexual dysfunction."]
+  },
+
+  {"tag": "preventionOCD",
+  "patterns": ["prevention of OCD","how to prevent OCD"],
+  "responses": ["There is no known way to prevent OCD, but early intervention and treatment may help prevent symptoms from worsening."]
+  },    
+    
+  {"tag": "DepartmentsOCD",
+  "patterns": ["Departments that treat OCD", "which department treats OCD"],
+  "responses": ["OCD falls under the category of anxiety disorders and is typically treated by mental health professionals such as psychiatrists, psychologists, and licensed therapists. "]
+  },
+    
+  {"tag": "bipolardisorder",
+  "patterns": ["what is bipolar disorder", "bipolar disorder"],
+  "responses": ["Bipolar disorder is a mental health condition characterized by extreme shifts in mood, energy, and activity levels. "]
+  },
+
+   {"tag": "causesbipolar",
+  "patterns": ["what are the causes of bipolar disorder", "causes of bipolar disorder"],
+  "responses": ["The exact cause of bipolar disorder is unknown, but it is believed to be a combination of genetic, biological, and environmental factors."]
+  },
+
+  {"tag": "symptomsbipolar ",
+  "patterns": ["what are the symptoms of bipolar disorder", "symptoms of bipolar disorder"],
+  "responses": [" Symptoms of bipolar disorder include mood swings, which can range from highs (mania or hypomania) to lows (depression), as well as changes in energy levels, activity levels, sleep patterns, and behavior."]
+  },
+
+  {"tag": "treatmentbipolar",
+  "patterns": ["what are the treatment for bipolar disorder", "treatment for bipolar disorder"],
+  "responses": ["Treatment for bipolar disorder typically involves a combination of medication and therapy, including mood stabilizers, antipsychotics, antidepressants, and psychotherapy."]
+  },
+
+  {"tag": "diagnosisbipolar",
+  "patterns": ["what are the diagnosis of bipolar disorder", "diagnosis of bipolar disorder"],
+  "responses": ["Diagnosis of bipolar disorder is typically made based on a thorough evaluation of symptoms, medical history, and family history, as well as a physical exam and various laboratory tests."]
+  },
+
+  {"tag": "medicationsbipolar",
+  "patterns": ["what are the medications for bipolar disorder", "medications for bipolar disorder"],
+  "responses": [" Medications commonly used to treat bipolar disorder include mood stabilizers (such as lithium and valproic acid), antipsychotics (such as olanzapine and risperidone), and antidepressants (such as fluoxetine and sertraline)."]
+  },
+
+  {"tag": "therapybipolar",
+  "patterns": ["what is the therapy for bipolar disorder", "therapy for bipolar disorder"],
+  "responses": [" Psychotherapy, such as cognitive-behavioral therapy (CBT) and family-focused therapy, can also be helpful in treating bipolar disorder."]
+  },
+
+  {"tag": "lifestylechangesbipolar",
+  "patterns": ["what are the lifestyle changes one should make to manage bipolar disorder", "lifestyle changes to manage bipolar disorder"],
+  "responses": [" Lifestyle changes, such as maintaining a regular sleep schedule, reducing stress, and avoiding drugs and alcohol, can also be helpful in managing symptoms of bipolar disorder."]
+  },
+
+  {"tag": "yogabipolar",
+  "patterns": ["what yogasanas should one perform to manage bipolar disorder", "yoga to manage bipolar disorder"],
+  "responses": ["Yogasanas such as Viparita Karani (Legs-Up-the-Wall Pose), Balasana (Child's Pose), and Shavasana (Corpse Pose) may also be helpful in reducing symptoms of bipolar disorder."]
+  },
+
+  {"tag": "sideeffectsbipolar",
+  "patterns": ["what are the side effects of medications of bipolar disorder","side effects of medications of bipolar disorder"],
+  "responses": [" Common side effects of medications used to treat bipolar disorder include weight gain, drowsiness, dry mouth, tremors, and nausea."]
+  },
+
+  {"tag": "preventionbipolar",
+  "patterns": ["prevention of bipolar disorder","how to prevent bipolar disorder"],
+  "responses": ["There is no known way to prevent bipolar disorder, but early diagnosis and treatment can help manage symptoms and improve outcomes."]
+  },    
+    
+  {"tag": "Departmentspanic",
+  "patterns": ["Departments that treat bipolar disorder", "which department treats bipolar disorder"],
+  "responses": ["The department of psychiatry or psychology typically handles bipolar disorder "]
+  },
+    
+  {"tag": "hypertension",
+  "patterns": ["what is hypertension", "hypertension"],
+  "responses": ["Hypertension, also known as high blood pressure, is a medical condition where the force of the blood against the artery walls is consistently high."]
+  },
+
+   {"tag": "causeshypertension",
+  "patterns": ["what are the causes hypertension", "causes hypertension"],
+  "responses": ["The exact cause of hypertension is often unknown, but factors such as age, family history, obesity, smoking, stress, lack of physical activity, and high sodium intake can increase the risk of developing hypertension."]
+  },
+
+  {"tag": "symptomshypertension ",
+  "patterns": ["what are the symptoms of hypertension", "symptoms of hypertension"],
+  "responses": ["Hypertension often has no symptoms, which is why it is known as the silent killer. In some cases, people may experience headaches, shortness of breath, dizziness, or chest pain."]
+  },
+
+  {"tag": "treatmenthypertension",
+  "patterns": ["what are the treatment for hypertension", "treatment for hypertension"],
+  "responses": [" Treatment of hypertension includes lifestyle changes such as weight loss, regular exercise, reducing sodium intake, limiting alcohol consumption, and quitting smoking. Medications such as ACE inhibitors, diuretics, and calcium channel blockers may also be prescribed."]
+  },
+
+  {"tag": "diagnosishypertension",
+  "patterns": ["what are the diagnosis of hypertension", "diagnosis of hypertension"],
+  "responses": ["Diagnosis of hypertension is usually done through measuring blood pressure using a blood pressure cuff."]
+  },
+
+  {"tag": "medicationshypertension",
+  "patterns": ["what are the medications for hypertension", "medications for hypertension"],
+  "responses": ["ACE inhibitors, diuretics, calcium channel blockers, beta-blockers, and angiotensin receptor blockers are commonly prescribed medications for hypertension."]
+  },
+
+  {"tag": "therapyhypertension",
+  "patterns": ["what is the therapy for hypertension", "therapy for hypertension"],
+  "responses": [" Relaxation techniques such as deep breathing, meditation, and yoga may help manage hypertension."]
+  },
+
+  {"tag": "lifestylechangeshypertension",
+  "patterns": ["what are the lifestyle changes one should make to manage hypertension", "lifestyle changes to manage hypertension"],
+  "responses": ["  Weight loss, regular exercise, reducing sodium intake, limiting alcohol consumption, and quitting smoking are all lifestyle changes that can help manage hypertension."]
+  },
+
+  {"tag": "yogahypertension",
+  "patterns": ["what yogasanas should one perform to manage hypertension", "yoga to manage hypertension"],
+  "responses": ["Yogasanas such as savasana, corpse pose, and pranayama may help manage hypertension."]
+  },
+
+  {"tag": "sideeffectshypertension",
+  "patterns": ["what are the side effects of medications of hypertension","medications of hypertension"],
+  "responses": ["Common side effects of hypertension medications include dizziness, headache, nausea, fatigue, and dry cough."]
+  },
+
+  {"tag": "preventionhypertension",
+  "patterns": ["prevention of hypertension","how to prevent hypertension"],
+  "responses": ["Maintaining a healthy lifestyle by exercising regularly, eating a balanced diet, reducing stress, and avoiding smoking and excessive alcohol consumption may help prevent hypertension."]
+  },    
+    
+  {"tag": "Departmentshypertension",
+  "patterns": ["Departments that treat hypertension", "which department treats hypertension"],
+  "responses": ["Hypertension is usually managed by a primary care physician, but in some cases, a specialist such as a cardiologist may be involved in the treatment plan."]
+  },
+    
+  {"tag": "Eating disorder",
+  "patterns": ["what is Eating disorder", "Eating disorder"],
+  "responses": [" Eating disorders are serious mental health conditions that can have a significant impact on a person's physical and emotional health. They are characterized by unhealthy eating habits that can lead to severe medical complications. "]
+  },
+
+   {"tag": "causeseating",
+  "patterns": ["what are the causes of Eating disorder", "causes Eating disorder"],
+  "responses": ["Eating disorders can have a combination of genetic, environmental, and psychological factors that can contribute to their development."]
+  },
+
+  {"tag": "symptomseating ",
+  "patterns": ["what are the symptoms of Eating disorder","symptoms of Eating disorder"],
+  "responses": [" Symptoms of eating disorders may include but are not limited to, distorted body image, weight changes, obsessive thoughts about food and weight, severe calorie restriction, binge eating, and purging behaviors."]
+  },
+
+  {"tag": "treatmenteating",
+  "patterns": ["what are the treatment for Eating disorder", " treatment for Eating disorder"],
+  "responses": [" Treatment for eating disorders typically involves a combination of therapy, medication, and nutritional counseling."]
+  },
+
+  {"tag": "diagnosiseating",
+  "patterns": ["what are the diagnosis of Eating disorder", "diagnosis of Eating disorder"],
+  "responses": [" Diagnosis of eating disorders involves a comprehensive evaluation of a person's medical and psychiatric history, as well as physical exams and laboratory tests."]
+  },
+
+  {"tag": "medicationseating",
+  "patterns": ["what are the medications for Eating disorder", "medications for Eating disorder"],
+  "responses": ["Medications may be prescribed to treat co-occurring mental health conditions such as depression, anxiety, or obsessive-compulsive disorder."]
+  },
+
+  {"tag": "therapyeating",
+  "patterns": ["what is the therapy for Eating disorder", "therapy for Eating disorder"],
+  "responses": ["Therapy for eating disorders typically involves cognitive-behavioral therapy, dialectical behavior therapy, or family-based therapy."]
+  },
+
+  {"tag": "lifestylechangeseating",
+  "patterns": ["what are the lifestyle changes one should make to manage Eating disorder","lifestyle to manage Eating disorder"],
+  "responses": [" Lifestyle changes that may help manage symptoms of OCD include stress management techniques, regular exercise, and a healthy diet."]
+  },
+
+  {"tag": "yogaeating",
+  "patterns": ["what yogasanas should one perform to manage Eating disorder", "yoga to manage eating disorder"],
+  "responses": ["Yoga can be a helpful complementary therapy for eating disorders as it can promote relaxation, body awareness, and self-acceptance."]
+  },
+
+  {"tag": "sideeffectseating",
+  "patterns": ["what are the side effects of medications of Eating disorder", "side effects of medications of Eating disorder"],
+  "responses": ["Side effects of medications used to treat eating disorders can vary depending on the specific medication but may include nausea, vomiting, headaches, and changes in appetite."]
+  },
+
+  {"tag": "preventioneating",
+  "patterns": ["prevention of Eating disorder","how to prevent Eating disorder"],
+  "responses": ["Preventing eating disorders involves promoting healthy body image and attitudes towards food, as well as recognizing and addressing risk factors such as trauma, stress, and societal pressures."]
+  },    
+    
+  {"tag": "DepartmentsEating",
+  "patterns": ["Departments that treat Eating disorder", "which department treats Eating disorder"],
+  "responses": ["Eating disorders can be treated by a range of healthcare professionals, including psychologists, psychiatrists, primary care physicians, dietitians, and other specialists in eating disorder treatment. "]
+  },
+    
+  {"tag": "Attention-deficit/hyperactivity disorder (ADHD)",
+  "patterns": ["what is ADHD","what is Attention-deficit disorder"," hyperactivity disorder", "Attention-deficit disorder"],
+  "responses": ["Attention-deficit/hyperactivity disorder (ADHD) is a neurodevelopmental disorder that affects both children and adults, characterized by difficulty in sustaining attention, hyperactivity, and impulsivity. "]
+  },
+
+   {"tag": "causesADHD",
+  "patterns": ["what are the causes ADHD", "causes ADHD"],
+  "responses": ["The exact cause of ADHD is not known, but it is believed to be caused by a combination of genetic and environmental factors."]
+  },
+
+  {"tag": "symptomsADHD ",
+  "patterns": ["what are the symptoms of ADHD", "symptoms of ADHD"],
+  "responses": [" Symptoms of ADHD include inattention, hyperactivity, impulsivity, forgetfulness, disorganization, and difficulty completing tasks."]
+  },
+
+  {"tag": "treatmentADHD",
+  "patterns": ["what are the treatment for ADHD", "treatment for ADHD"],
+  "responses": [" Treatment for ADHD typically involves a combination of medications, behavioral therapy, and lifestyle changes."]
+  },
+
+  {"tag": "diagnosisADHD",
+  "patterns": ["what are the diagnosis of ADHD", "diagnosis of ADHD"],
+  "responses": [" Diagnosis of ADHD is made through a combination of physical exams, psychological tests, and interviews with the patient and family members."]
+  },
+
+  {"tag": "medicationsADHD",
+  "patterns": ["what are the medications for ADHD", "medications for ADHD"],
+  "responses": [" Medications commonly used to treat ADHD include stimulants such as methylphenidate (Ritalin) and amphetamines such as dextroamphetamine (Adderall)."]
+  },
+
+  {"tag": "therapyADHD",
+  "patterns": ["what is the therapy for ADHD", "therapy for ADHD"],
+  "responses": ["Behavioral therapy, including cognitive-behavioral therapy, is often used to help patients with ADHD develop coping strategies and improve their behavior."]
+  },
+
+  {"tag": "lifestylechangesADHD",
+  "patterns": ["what are the lifestyle changes one should make to manage ADHD", "lifestyle changes to manage ADHD"],
+  "responses": [" Lifestyle changes such as improving sleep habits, creating routines, and maintaining a healthy diet and exercise routine can be helpful in managing symptoms of ADHD."]
+  },
+
+  {"tag": "yogaADHD",
+  "patterns": ["what yogasanas should one perform to manage ADHD", "yoga to manage ADHD"],
+  "responses": ["Certain yoga poses such as child's pose, downward-facing dog, and warrior II can help improve focus and reduce anxiety in individuals with ADHD."]
+  },
+
+  {"tag": "sideeffectsADHD",
+  "patterns": ["what are the side effects of medications of ADHD", "side effects of medications of ADHD"],
+  "responses": [" Common side effects of ADHD medications include decreased appetite, insomnia, and stomach upset."]
+  },
+
+  {"tag": "preventionADHD",
+  "patterns": ["prevention of Eating disorder","how to prevent ADHD"],
+  "responses": ["There is no known way to prevent ADHD, but early intervention and treatment can help manage symptoms and improve quality of life."]
+  },    
+    
+  {"tag": "DepartmentsADHD",
+  "patterns": ["Departments that treat ADHD", "which department treats ADHD"],
+  "responses": ["The department of ADHD falls under the umbrella of psychiatry and neurology, with specialists such as psychiatrists, psychologists, and neurologists involved in diagnosis and treatment. "]
+  },
+    
+  {"tag": "Autism spectrum disorder (ASD)",
+  "patterns": ["what is Autism spectrum disorder (ASD) ", "Autism spectrum disorder", "asd"],
+  "responses": ["Autism spectrum disorder (ASD) is a neurodevelopmental disorder that affects communication, social interaction, and behavior. "]
+  },
+
+   {"tag": "causesASD",
+  "patterns": ["what are the causes of ASD ", "causes ASD", " causes of Autism spectrum disorder"],
+  "responses": ["The exact cause of ASD is unknown, but it is believed to involve a combination of genetic and environmental factors."]
+  },
+
+  {"tag": "symptomsASD ",
+  "patterns": ["what are the symptoms of ASD", "symptoms of ASD"],
+  "responses": [" Symptoms of ASD can vary widely, but typically include difficulty with social interaction, communication, and repetitive behaviors or interests."]
+  },
+
+  {"tag": "treatmentASD",
+  "patterns": ["what are the treatment for ASD", "treatment for ASD"],
+  "responses": ["Treatment for ASD typically involves behavioral therapy, speech therapy, and other forms of support. Medications may also be used to address specific symptoms, such as anxiety or aggression."]
+  },
+
+  {"tag": "diagnosisASD",
+  "patterns": ["what are the diagnosis of ASD", "diagnosis of ASD"],
+  "responses": ["  Diagnosis of ASD typically involves a combination of behavioral evaluations, developmental screenings, and medical tests."]
+  },
+
+  {"tag": "medicationsASD",
+  "patterns": ["what are the medications for ASD", "medications for ASd"],
+  "responses": ["Medications used to treat ASD can include antipsychotics, antidepressants, and stimulants. These medications can have side effects, such as weight gain or sleep disturbances."]
+  },
+
+  {"tag": "therapyASD",
+  "patterns": ["what is the therapy for ASD", "therapy for ASD"],
+  "responses": [" Behavioral therapy, including applied behavior analysis (ABA), is a common treatment for ASD. Other types of therapy, such as speech therapy and occupational therapy, can also be helpful."]
+  },
+
+  {"tag": "lifestylechangesASD",
+  "patterns": ["what are the lifestyle changes one should make to manage ASD", "lifestyle changes to manage ASD"],
+  "responses": [" Lifestyle changes can include creating a structured routine, providing opportunities for social interaction, and managing sensory input."]
+  },
+
+  {"tag": "yogaASD",
+  "patterns": ["what yogasanas should one perform to manage ASD", "yoga to manage ASD"],
+  "responses": ["There is limited research on the use of yoga for ASD, but some studies suggest that it may have a positive effect on behavior and social interactions."]
+  },
+
+  {"tag": "sideeffectsASD",
+  "patterns": ["what are the side effects of medications of ASD", "side effects of medications of ASD"],
+  "responses": [" Side effects of medications used to treat ASD can include weight gain, sleep disturbances, and increased risk of seizures."]
+  },
+
+  {"tag": "preventionASD",
+  "patterns": ["prevention of Eating disorder","how to prevent ASD"],
+  "responses": ["There is no known way to prevent ASD, but early intervention and treatment can improve outcomes."]
+  },    
+    
+  {"tag": "DepartmentsASD",
+  "patterns": ["Departments that treat ASD", "which department treats ASD"],
+  "responses": ["ASD is typically diagnosed and treated by a combination of medical professionals, including pediatricians, psychologists, and psychiatrists. "]
+  },
+    
+  {"tag": "Dissociative disorder",
+  "patterns": ["what is Dissociative disorder ", "Dissociative disorder"],
+  "responses": [" Dissociative disorder is a mental disorder characterized by disruptions or breakdowns of memory, awareness, identity, or perception. "]
+  },
+
+   {"tag": "causesDissociative",
+  "patterns": ["what are the causes Dissociative disorder ", "causes Dissociative disorder"],
+  "responses": ["Dissociative disorder can be caused by severe trauma, such as physical or sexual abuse, accidents, or war."]
+  },
+
+  {"tag": "symptomsDissociative ",
+  "patterns": ["what are the symptoms of Dissociative disorder", "symptoms of Dissociative disorder"],
+  "responses": ["Symptoms of dissociative disorder can include memory loss, depersonalization, derealization, and dissociative fugue."]
+  },
+
+  {"tag": "treatmentDissociative",
+  "patterns": ["what are the treatment for Dissociative disorder" , "treatment for Dissociative disorder"],
+  "responses": ["Treatment for dissociative disorder can include therapy, such as cognitive behavioral therapy and dialectical behavior therapy, as well as medication for symptoms such as depression or anxiety."]
+  },
+
+  {"tag": "diagnosisDissociative ",
+  "patterns": ["what are the diagnosis of Dissociative disorder", " diagnosis of Dissociative disorder"],
+  "responses": ["  Diagnosis of dissociative disorder is typically made through a psychiatric evaluation and may involve diagnostic tests."]
+  },
+
+  {"tag": "medicationsDissociative ",
+  "patterns": ["what are the medications for Dissociative disorder" , "medications for Dissociative disorder"],
+  "responses": ["Medications for dissociative disorder may include antidepressants, antipsychotics, and anti-anxiety medications."]
+  },
+
+  {"tag": "therapyDissociative",
+  "patterns": ["what is the therapy for Dissociative disorder", "therapy for Dissociative disorder"],
+  "responses": ["Therapy for dissociative disorder can include cognitive behavioral therapy, dialectical behavior therapy, and eye movement desensitization and reprocessing therapy."]
+  },
+
+  {"tag": "lifestylechangesDissociative ",
+  "patterns": ["what are the lifestyle changes one should make to manage Dissociative disorder", "lifestyle changes to manage Dissociative disorder"],
+  "responses": [" Lifestyle changes that may help manage dissociative disorder can include stress-reducing techniques such as meditation and exercise, as well as avoiding drugs and alcohol."]
+  },
+
+  {"tag": "yogaDissociative ",
+  "patterns": ["what yogasanas should one perform to manage Dissociative disorder", "yoga to manage Dissociative disorder"],
+  "responses": ["Yogasanas such as pranayama, meditation, and asanas like Savasana and Viparita Karani may help reduce stress and anxiety associated with dissociative disorder."]
+  },
+
+  {"tag": "sideeffectsDissociative ",
+  "patterns": ["what are the side effects of medications of Dissociative disorder", "medications of Dissociative disorder"],
+  "responses": ["Side effects of medications for dissociative disorder can include drowsiness, weight gain, and sexual dysfunction."]
+  },
+
+  {"tag": "preventionDissociative disorder",
+  "patterns": ["prevention of Eating disorder","how to prevent Dissociative disorder"],
+  "responses": [" Preventing dissociative disorder involves treating any underlying trauma or stress and seeking treatment as soon as symptoms arise."]
+  },    
+    
+  {"tag": "DepartmentsDissociative ",
+  "patterns": ["Departments that treat Dissociative disorder", "which department treats Dissociative disorder"],
+  "responses": ["Dissociative disorder is typically treated by mental health professionals such as psychiatrists, psychologists, and licensed therapists. "]
+  },
+    
+  {"tag": "Sleep disorder",
+  "patterns": ["what is Sleep disorder ", "Sleep disorder"],
+  "responses": [" Sleep disorder is a medical condition that affects an individual's ability to fall asleep or stay asleep. There are various types of sleep disorders, including insomnia, sleep apnea, restless leg syndrome, and narcolepsy."]
+  },
+
+   {"tag": "causesSleep",
+  "patterns": ["what are the causes Sleep disorder ", "causes Sleep disorder "],
+  "responses": ["Sleep disorders can be caused by a variety of factors, such as stress, anxiety, depression, medications, medical conditions, and lifestyle choices."]
+  },
+
+  {"tag": "symptomsSleep ",
+  "patterns": ["what are the symptoms of Sleep disorder", " symptoms of Sleep disorder"],
+  "responses": [" The symptoms of sleep disorders can vary depending on the type of disorder but may include difficulty falling or staying asleep, excessive daytime sleepiness, snoring, nightmares, and irregular sleep patterns."]
+  },
+
+  {"tag": "treatmentSleep",
+  "patterns": ["what are the treatment for Sleep disorder","treatment for Sleep disorder"],
+  "responses": ["Treatment for sleep disorders may involve medications, therapy, and lifestyle changes. For instance, medications such as sedatives or antidepressants may be prescribed to help manage symptoms. Cognitive-behavioral therapy (CBT) can also be effective in treating insomnia. Lifestyle changes like regular exercise, avoiding caffeine or alcohol, and establishing a consistent sleep schedule can also be helpful."]
+  },
+
+  {"tag": "diagnosisSleep ",
+  "patterns": ["what are the diagnosis of Sleep disorder", " diagnosis of Sleep disorder"],
+  "responses": ["  A diagnosis of sleep disorder typically involves a physical examination, sleep history, and a sleep study to evaluate an individual's sleep patterns."]
+  },
+
+  {"tag": "medicationsSleep",
+  "patterns": ["what are the medications for Sleep disorder", "medications for Sleep disorder"],
+  "responses": [" Medications used to treat sleep disorders may include benzodiazepines, non-benzodiazepine hypnotics, and melatonin receptor agonists."]
+  },
+
+  {"tag": "therapySleep",
+  "patterns": ["what is the therapy for Sleep disorder", "therapy for Sleep disorder"],
+  "responses": ["Therapy for sleep disorders may include CBT or other behavioral therapies that aim to change an individual's thoughts and behaviors related to sleep."]
+  },
+
+  {"tag": "lifestylechangesSleep ",
+  "patterns": ["what are the lifestyle changes one should make to manage Sleep disorder", "lifestyle changes to manage Sleep disorder"],
+  "responses": [" Lifestyle changes such as regular exercise, avoiding caffeine or alcohol, and establishing a consistent sleep schedule can be helpful in managing sleep disorders."]
+  },
+
+  {"tag": "yogaSleep",
+  "patterns": ["what yogasanas should one perform to manage Sleep disorder", " yoga to manage Sleep disorder"],
+  "responses": ["Certain yoga poses can help relax the body and mind, promoting better sleep. Examples include child's pose, corpse pose, and legs up the wall pose."]
+  },
+
+  {"tag": "sideeffectsSleep",
+  "patterns": ["what are the side effects of medications of Sleep disorder", "side effects of medications of Sleep disorder"],
+  "responses": [" Side effects of medications used to treat sleep disorders may include dizziness, daytime drowsiness, and dependence."]
+  },
+
+  {"tag": "preventionSleep",
+  "patterns": ["prevention of Sleep disorder","how to prevent Sleep disorder"],
+  "responses": ["Preventative measures for sleep disorders include maintaining a healthy sleep routine, avoiding caffeine or alcohol, and managing stress and anxiety."]
+  },    
+    
+  {"tag": "DepartmentsSleep",
+  "patterns": ["Departments that treat Sleep disorder", "which department treats Sleep disorder"],
+  "responses": ["Sleep disorders are typically diagnosed and treated by specialists in sleep medicine or neurology. "]
+  },
+    
+  {"tag": "addictive disorder",
+  "patterns": ["what is addictive disorder ","addictive disorder"],
+  "responses": [" Eating disorders are serious mental health conditions that can have a significant impact on a person's physical and emotional health. They are characterized by unhealthy eating habits that can lead to severe medical complications. "]
+  },
+
+   {"tag": "causesaddictive ",
+  "patterns": ["what are the causes addictive disorder ", "causes addictive disorder"],
+  "responses": ["Eating disorders can have a combination of genetic, environmental, and psychological factors that can contribute to their development."]
+  },
+
+  {"tag": "symptomsaddictive  ",
+  "patterns": ["what are the symptoms of addictive disorder", "symptoms of addictive disorder"],
+  "responses": [" Symptoms of eating disorders may include but are not limited to, distorted body image, weight changes, obsessive thoughts about food and weight, severe calorie restriction, binge eating, and purging behaviors."]
+  },
+
+  {"tag": "treatmentaddictive ",
+  "patterns": ["what are the treatment for addictive disorder", "treatment for addictive disorder"],
+  "responses": [" Treatment for eating disorders typically involves a combination of therapy, medication, and nutritional counseling."]
+  },
+
+  {"tag": "diagnosisaddictive ",
+  "patterns": ["what are the diagnosis of addictive disorder", "diagnosis of addictive disorder"],
+  "responses": [" Diagnosis of eating disorders involves a comprehensive evaluation of a person's medical and psychiatric history, as well as physical exams and laboratory tests."]
+  },
+
+  {"tag": "medicationsaddictive",
+  "patterns": ["what are the medications for addictive disorder", "medications for addictive disorder"],
+  "responses": ["Medications may be prescribed to treat co-occurring mental health conditions such as depression, anxiety, or obsessive-compulsive disorder."]
+  },
+
+  {"tag": "therapyaddictive",
+  "patterns": ["what is the therapy for addictive disorder", "therapy for addictive disorder"],
+  "responses": ["Therapy for eating disorders typically involves cognitive-behavioral therapy, dialectical behavior therapy, or family-based therapy."]
+  },
+
+  {"tag": "lifestylechangesaddictive ",
+  "patterns": ["what are the lifestyle changes one should make to manage addictive disorder", "lifestyle changes to manage addictive disorder"],
+  "responses": [" Lifestyle changes that may help manage symptoms of OCD include stress management techniques, regular exercise, and a healthy diet."]
+  },
+
+  {"tag": "yogaaddictive ",
+  "patterns": ["what yogasanas should one perform to manage addictive disorder", "yoga to manage addictive disorder"],
+  "responses": ["Yoga can be a helpful complementary therapy for eating disorders as it can promote relaxation, body awareness, and self-acceptance."]
+  },
+
+  {"tag": "sideeffectsaddictive ",
+  "patterns": ["what are the side effects of medications of addictive disorder", "side effects of medications of addictive disorder"],
+  "responses": ["Side effects of medications used to treat eating disorders can vary depending on the specific medication but may include nausea, vomiting, headaches, and changes in appetite."]
+  },
+
+  {"tag": "preventionaddictive",
+  "patterns": ["prevention of Eating disorder","how to prevent addictive disorder"],
+  "responses": ["Preventing eating disorders involves promoting healthy body image and attitudes towards food, as well as recognizing and addressing risk factors such as trauma, stress, and societal pressures."]
+  },    
+    
+  {"tag": "Departmentsaddictive",
+  "patterns": ["Departments that treat addictive disorder", "which department treats addictive disorder"],
+  "responses": ["Eating disorders can be treated by a range of healthcare professionals, including psychologists, psychiatrists, primary care physicians, dietitians, and other specialists in eating disorder treatment. "]
+  },
+    
+  {"tag": " social anxiety disorder (SAD)",
+  "patterns": ["what is  social anxiety disorder (SAD) ", "social anxiety disorder", "SAD"],
+  "responses": ["Social Anxiety Disorder (SAD), also known as social phobia, is a mental health condition characterized by an intense fear of social situations, often accompanied by feelings of self-consciousness, embarrassment, and the fear of being negatively judged or evaluated by others. "]
+  },
+
+   {"tag": "causessad",
+  "patterns": ["what are the causes  social anxiety disorder (SAD) ", "causes of social anxiety disorder ", "causes (SAD)"],
+  "responses": ["The exact causes of social anxiety disorder are not known, but it is believed to result from a combination of genetic, environmental, and brain chemistry factors. Traumatic experiences, family history of anxiety disorders, and an imbalance of certain neurotransmitters in the brain may contribute to its development."]
+  },
+
+  {"tag": "symptomssad ",
+  "patterns": ["what are the symptoms of  social anxiety disorder (SAD)", "symptoms of  social anxiety disorder", "symptoms of  (SAD)"],
+  "responses": [" Symptoms of social anxiety disorder can vary, but common signs include excessive anxiety in social situations, avoidance of social interactions, intense self-consciousness, fear of humiliation or embarrassment, physical symptoms such as rapid heartbeat, sweating, trembling, blushing, difficulty speaking, and negative thoughts about oneself."]
+  },
+
+  {"tag": "treatmentsad",
+  "patterns": ["what are the treatment for  social anxiety disorder (SAD)", "treatment for  social anxiety disorder ", "treatment for   (SAD)"],
+  "responses": [" Treatment for social anxiety disorder may involve a combination of therapy, medications, and lifestyle changes. Cognitive-behavioral therapy (CBT) is the most effective form of therapy for SAD, helping individuals challenge and change negative thought patterns and behaviors and Medications"]
+  },
+
+  {"tag": "diagnosissad",
+  "patterns": ["what are the diagnosis of social anxiety disorder (SAD)", "diagnosis of social anxiety disorder ", "diagnosis of (SAD)"],
+  "responses": ["A diagnosis of social anxiety disorder is typically made by a mental health professional through a comprehensive evaluation, which may include interviews, questionnaires, and assessment of symptoms and their impact on daily life. The Diagnostic and Statistical Manual of Mental Disorders (DSM-5) provides criteria for diagnosing SAD."]
+  },
+
+  {"tag": "medicationssad",
+  "patterns": ["what are the medications for  social anxiety disorder (SAD)", " medications for  social anxiety disorder", " medications for (SAD)"],
+  "responses": [" Common medications used to treat social anxiety disorder include selective serotonin reuptake inhibitors (SSRIs) such as sertraline and paroxetine, as well as benzodiazepines like lorazepam and clonazepam. These medications help reduce anxiety symptoms and promote relaxation."]
+  },
+
+  {"tag": "therapysad",
+  "patterns": ["what is the therapy for  social anxiety disorder (SAD)", "therapy for  social anxiety disorder", "therapy for (SAD)"],
+  "responses": ["Cognitive-behavioral therapy (CBT) is the primary therapy for social anxiety disorder. CBT techniques may include exposure therapy, where individuals gradually face feared social situations, and cognitive restructuring, which helps challenge and change negative thought patterns associated with social anxiety."]
+  },
+
+  {"tag": "lifestylechangessad",
+  "patterns": ["what are the lifestyle changes one should make to manage social anxiety disorder (SAD)", "lifestyle changes to manage social anxiety disorder (SAD)"],
+  "responses": ["Lifestyle changes that can help manage social anxiety disorder include practicing stress management techniques, engaging in regular physical exercise, getting adequate sleep, avoiding excessive caffeine or alcohol, and maintaining a healthy diet."]
+  },
+
+  {"tag": "yogasad",
+  "patterns": ["what yogasanas should one perform to manage  social anxiety disorder (SAD)" , "yoga to manage  social anxiety disorder (SAD)"],
+  "responses": ["Yoga poses that may help reduce symptoms of social anxiety disorder include Child's Pose (Balasana), Corpse Pose (Savasana), Forward Fold (Uttanasana), Standing Forward Bend (Uttanasana), and Camel Pose (Ustrasana). These poses promote relaxation, release tension, and help calm the mind."]
+  },
+
+  {"tag": "sideeffectssad",
+  "patterns": ["what are the side effects of medications of  social anxiety disorder (SAD)", "side effects of medications of  social anxiety disorder (SAD)"],
+  "responses": ["Side effects of medications used to treat social anxiety disorder vary depending on the specific medication but can include nausea, dizziness, drowsiness, sexual dysfunction, gastrointestinal disturbances, and changes in appetite or weight."]
+  },
+
+  {"tag": "preventionsad",
+  "patterns": ["prevention of social anxiety disorder (SAD)","how to prevent  social anxiety disorder (SAD)"],
+  "responses": [" There are no known strategies to prevent the development of social anxiety disorder. However, early intervention, recognizing symptoms, and seeking professional help can lead to better outcomes and improved management of the condition."]
+  },    
+    
+  {"tag": "Departmentssad",
+  "patterns": ["Departments that treat  social anxiety disorder (SAD)", "which department treats  social anxiety disorder (SAD)"],
+  "responses": [" Social anxiety disorder can be diagnosed and treated by mental health professionals, including psychiatrists, psychologists, and therapists specializing in anxiety disorders or behavioral health."]
+  },
+
+  {"tag": "Psychodynamictherapy",
+  "patterns": ["what is Psychodynamic therapy ", "Psychodynamic therapy"],
+  "responses": [" It is a form of psychoanalytic therapy that is based on the theories of Sigmund Freud. It focuses on exploring an individual's unconscious conflicts and how these conflicts may be impacting their thoughts, feelings, and behaviors. The therapist helps the individual gain insight into their unconscious motivations, beliefs, and desires and how these may be related to their current difficulties. Psychodynamic therapy is typically long-term and may involve exploring early childhood experiences and relationships. "]
+  },
+
+   {"tag": "Interpersonaltherapy",
+  "patterns": ["what is Interpersonal therapy  ", "Interpersonal therapy"],
+  "responses": ["It is a form of psychotherapy that focuses on improving the quality of an individual's relationships and communication skills. It aims to help people identify and resolve problems in their interpersonal relationships, such as difficulties with communication, role transitions, grief, and interpersonal disputes. IPT is typically short-term, structured, and time-limited, with a focus on the individual's current social and interpersonal functioning."]
+  },
+
+  {"tag": "Exposuretherapy, ",
+  "patterns": ["what is Exposure therapy", "Exposure therapy"],
+  "responses": [" Exposure therapy is a type of behavioral therapy that involves exposing individuals to feared situations, objects, or thoughts in a controlled and gradual manner. The goal is to help individuals confront their fears and anxieties in a safe and supportive environment. By repeatedly exposing themselves to the feared stimuli, individuals can learn to manage their anxiety and reduce their avoidance behaviors. "]
+  },
+
+  {"tag": "Acceptancetherapy",
+  "patterns": ["what is Acceptance and commitment therapy (ACT)", "Acceptance and commitment therapy", "act"],
+  "responses": [" Acceptance and Commitment Therapy is a form of cognitive-behavioral therapy that emphasizes acceptance and mindfulness strategies to help individuals effectively manage their thoughts, emotions, and behaviors. ACT encourages individuals to accept their internal experiences (thoughts, feelings, sensations) without judgment, and to commit to taking actions that align with their values and goals. It aims to help individuals develop psychological flexibility and improve their overall well-being."]
+  },
+
+  {"tag": "Dialecticaltherapy",
+  "patterns": ["what is Dialectical behavior therapy","Dialectical behavior therapy"],
+  "responses": [" Dialectical Behavior Therapy (DBT) is a type of cognitive-behavioral therapy that was initially developed to treat individuals with borderline personality disorder (BPD). However, it has since been adapted and proven effective in treating various mental health conditions, including mood disorders, self-destructive behaviors, and difficulties with emotional regulation."]
+  },
+
+  {"tag": "familytherapy",
+  "patterns": ["what is family focused therapy" ,"family focused therapy"],
+  "responses": ["Family-focused therapy (FFT) is a type of psychotherapy that is designed to help individuals with mental health issues, particularly those with bipolar disorder and schizophrenia, by involving their family members in the therapeutic process. FFT aims to improve family communication and problem-solving skills, reduce family conflict, and provide education about the illness and its treatment. The therapy involves a combination of individual and family sessions, and focuses on enhancing the family's ability to work together to manage the illness and reduce the risk of relapse."]
+  },
+
+  {"tag": "speech therapy",
+  "patterns": ["what is speech therapy", "speech therapy"],
+  "responses": ["Speech therapy, also known as speech-language therapy or speech pathology, is a specialized form of therapy that focuses on the assessment and treatment of communication and swallowing disorders. Speech therapists, also called speech-language pathologists, work with individuals who have difficulties in areas such as speech production, language comprehension and expression, articulation, fluency (stuttering), voice disorders, and swallowing difficulties."]
+  },
+
+  {"tag": " occupationaltherapy",
+  "patterns": ["what is occupational therapy","occupational therapy"],
+  "responses": ["Occupational therapy (OT) is a healthcare profession that focuses on helping individuals develop, regain, or maintain the skills needed for daily activities and meaningful participation in their lives. Occupational therapists work with people of all ages who may have physical, cognitive, or emotional challenges that affect their ability to perform tasks and engage in activities."]
+  },
+
+  {"tag": "eyetherapy.",
+  "patterns": ["what is eye movement desensitization and reprocessing therapy.","eye movement desensitization and reprocessing therapy."],
+  "responses": ["It is a specialized form of psychotherapy that is primarily used to treat individuals who have experienced traumatic events or have symptoms of post-traumatic stress disorder (PTSD).EMDR therapy involves a structured eight-phase treatment process that integrates elements of cognitive-behavioral therapy (CBT) with bilateral stimulation techniques. Bilateral stimulation can be achieved through eye movements, taps, or auditory stimuli, and it is believed to stimulate the brain's natural healing processes."]
+  },
+
+  {"tag": "Psychologists",
+  "patterns": ["who are Psychologists","Psychologists"],
+  "responses": ["Psychologists are professionals who study human behavior, thoughts, emotions, and mental processes. They hold advanced degrees in psychology, such as a Ph.D. or Psy.D., and have received specialized training in the assessment, diagnosis, and treatment of mental health disorders. Psychologists utilize various therapeutic approaches, such as cognitive-behavioral therapy (CBT), psychoanalysis, and humanistic therapy, to help individuals overcome psychological difficulties. Unlike psychiatrists, psychologists generally do not prescribe medications. However, they often work in collaboration with psychiatrists and other healthcare professionals to provide comprehensive care."]
+  },
+
+  {"tag": "Psychiatrists",
+  "patterns": ["who are Psychiatrists", "Psychiatrists"],
+  "responses": ["Psychiatrists are medical doctors who specialize in the diagnosis, treatment, and prevention of mental illnesses and emotional disorders. They have completed medical school and received specialized training in psychiatry. Psychiatrists are licensed to prescribe medications and often use a combination of medication management and therapy in their treatment approach. They are trained to assess both the physical and mental aspects of mental health conditions and can provide comprehensive care for individuals with psychiatric disorders."]
+  },    
+    
+  {"tag": "Neurologist",
+  "patterns": ["who are Neurologist","Neurologist"],
+  "responses": ["neurologist is a medical doctor who specializes in the diagnosis and treatment of disorders affecting the nervous system, which includes the brain, spinal cord, and peripheral nerves. Neurologists are trained to diagnose and manage a wide range of neurological conditions, including stroke, epilepsy, multiple sclerosis, Parkinson's disease, and other disorders that impact the structure or function of the nervous system. While neurologists primarily focus on the physical aspects of neurological disorders, they may also address associated psychological symptoms or refer patients to mental health professionals for further evaluation and treatment. "]
+  },
+
+  {"tag": "Vajrasana",
+  "patterns": ["what is Vajrasana","Vajrasana"],
+  "responses": ["Vajrasana, also known as the Thunderbolt Pose, is a seated yoga posture. In this pose, you sit on your knees with your buttocks resting on your heels and your hands resting on your thighs or knees. Vajrasana is known for its ability to improve digestion and relieve stomach-related issues. It promotes blood circulation in the pelvic area and strengthens the back muscles. It is a simple and effective pose that can be practiced after meals or for meditation."]
+  },
+
+  {"tag": "Pranayama",
+  "patterns": ["what is Pranayama","Pranayama"],
+  "responses": ["Pranayama refers to the practice of controlled breathing techniques in yoga. It involves consciously regulating the breath to influence the flow of prana (life force energy) in the body. There are various types of pranayama techniques, such as deep breathing, alternate nostril breathing, and belly breathing. Pranayama practices help calm the mind, increase focus, and balance the nervous system. They can also improve lung capacity, reduce stress, and promote overall well-being. Pranayama is often incorporated into yoga sessions as a way to deepen the mind-body connection and enhance the benefits of yoga practice."]
+  },
+
+  {"tag": "Shavasana",
+  "patterns": ["what is Shavasana", "Shavasana"],
+  "responses": ["Shavasana, also known as the Corpse Pose, is a relaxation pose performed lying flat on your back. In Shavasana, you relax your entire body, release tension, and allow yourself to enter a state of deep relaxation. It is often practiced at the end of a yoga session to promote physical and mental relaxation. Shavasana helps reduce stress, calm the mind, and restore energy. It is a practice of surrendering and letting go, allowing the body and mind to rest and rejuvenate."]
+  },
+
+  {"tag": "Sedatives",
+  "patterns": ["what is Sedatives and hypnotics","Sedatives and hypnotics"],
+  "responses": [" Sedatives and hypnotics are medications used to promote sleep and reduce anxiety. "]
+  },
+
+  {"tag": "sideeffectsSedatives",
+  "patterns": ["what are the side effects of Sedatives and hypnotics","side effects of Sedatives and hypnotics"],
+  "responses": ["Side effects may include drowsiness, impaired coordination, confusion, headache, dizziness, nausea, increased fall risk, and potential dependency or addiction."]
+  },
+
+  {"tag": "Beta blockers",
+  "patterns": ["what are Beta-blockers", "Beta-blockers"],
+  "responses": ["Beta-blockers are medications primarily used to treat high blood pressure and heart conditions. "]
+  },    
+    
+  {"tag": "sideeffectsBeta",
+  "patterns": ["what are the side effects of Beta-blockers","side effects of Beta-blockers"],
+  "responses": ["Side effects can include fatigue, slow heart rate, low blood pressure, dizziness, cold extremities, gastrointestinal disturbances, and potential sexual dysfunction or breathing difficulties in certain individuals."]
+  },
+    
+  {"tag": "Benzodiazepines",
+  "patterns": ["what is Benzodiazepines","Benzodiazepines"],
+  "responses": ["Benzodiazepines are medications commonly prescribed for anxiety, insomnia, and seizures.  "]
+  },
+
+  {"tag": "sideeffectsBenzodiazepines",
+  "patterns": ["what are the side effects of Benzodiazepines","side effects of Benzodiazepines"],
+  "responses": ["Side effects may include sedation, impaired coordination, memory problems, dizziness, muscle weakness, confusion, potential dependency or addiction, and withdrawal symptoms upon discontinuation."]
+  },
+
+  {"tag": "Prozac",
+  "patterns": ["what is Prozac","Prozac"],
+  "responses": ["Prozac is selective serotonin reuptake inhibitors (SSRIs) used as antidepressant medications."]
+  }, 
+    
+  {"tag": "sideeffectsProzac",
+  "patterns": ["what are the side effects of Prozac", "side effects of Prozac"],
+  "responses": ["Side effects of Prozac may include nausea, diarrhea, headache, dizziness, insomnia, weight changes, sexual dysfunction, and potential serotonin syndrome in rare cases.."]
+  },
+    
+  {"tag": "Zoloft",
+  "patterns": ["what is Zoloft","Zoloft"],
+  "responses": ["Zoloft is selective serotonin reuptake inhibitors (SSRIs) used as antidepressant medications."]
+  }, 
+    
+  {"tag": "sideeffectsZoloft",
+  "patterns": ["what are the side effects of Zoloft","side effects of Zoloft"],
+  "responses": ["Side effects of Zoloft may include nausea, diarrhea, dizziness, drowsiness, insomnia, weight changes, sexual dysfunction, and potential serotonin syndrome in rare cases."]
+  },
+    
+  {"tag": "propranolol",
+  "patterns": ["what is propranolol"," propranolol"],
+  "responses": ["Propranolol is a medication classified as a beta-blocker. It is commonly used to treat high blood pressure, heart conditions, and certain anxiety disorders."]
+  }, 
+    
+  {"tag": "sideeffectspropranolol",
+  "patterns": ["what are the side effects of propranolol","side effects of propranolol"],
+  "responses": ["Side effects of propranolol may include fatigue, dizziness, low blood pressure, slow heart rate, cold extremities, gastrointestinal disturbances, difficulty breathing in individuals with asthma, potential worsening of depression or symptoms of heart failure, and rare allergic reactions."]
+  },
+    
+  {"tag": "Xanax",
+  "patterns": ["what is Xanax","Xanax"],
+  "responses": ["Xanax medications classified as benzodiazepines. They are commonly used to treat anxiety disorders and can also be prescribed for other conditions such as panic disorders."]
+  }, 
+    
+  {"tag": "sideeffectsXanax",
+  "patterns": ["what are the side effects of Xanax","side effects of Xanax"],
+  "responses": ["Side effects of Xanax may include drowsiness, dizziness, fatigue, confusion, memory problems, coordination difficulties, slurred speech, changes in appetite, and potential dependency or addiction with long-term use."]
+  },
+    
+  {"tag": "Ativan",
+  "patterns": ["what is Ativan","Ativan"],
+  "responses": ["Ativan medications classified as benzodiazepines. They are commonly used to treat anxiety disorders and can also be prescribed for other conditions such as panic disorders."]
+  }, 
+    
+  {"tag": "sideeffectsAtivan",
+  "patterns": ["what are the side effects of Ativan","side effects of Ativan"],
+  "responses": ["Side effects of Ativan may include drowsiness, dizziness, weakness, unsteadiness, memory problems, headache, blurred vision, changes in appetite, and potential dependency or addiction with long-term use."]
+  },
+    
+  {"tag": "Effexor",
+  "patterns": ["what is Effexor","Effexor"],
+  "responses": ["Effexor medications classified as serotonin-norepinephrine reuptake inhibitors (SNRIs). They are primarily used as antidepressant medications."]
+  }, 
+    
+  {"tag": "sideeffectsEffexor",
+  "patterns": ["what are the side effects of Effexor","side effects of Effexor"],
+  "responses": ["Side effects of Effexor may include nausea, dizziness, drowsiness, headache, dry mouth, sweating, nervousness, insomnia, changes in appetite, and potential sexual dysfunction."]
+  },
+    
+  {"tag": "Cymbalta",
+  "patterns": ["what is Cymbalta","Cymbalta"],
+  "responses": ["Cymbalta medications classified as serotonin-norepinephrine reuptake inhibitors (SNRIs). They are primarily used as antidepressant medications."]
+  }, 
+    
+  {"tag": "sideeffectsCymbalta",
+  "patterns": ["what are the side effects of Cymbalta","side effects of Cymbalta"],
+  "responses": ["Side effects of Cymbalta may include nausea, dry mouth, constipation, dizziness, drowsiness, fatigue, headache, sweating, changes in appetite, and potential sexual dysfunction."]
+  },
+    
+  {"tag": "clomipramine",
+  "patterns": ["what is clomipramine","clomipramine"],
+  "responses": ["Clomipramine is a medication classified as a tricyclic antidepressant. It is primarily used to treat obsessive-compulsive disorder (OCD)."]
+  }, 
+    
+  {"tag": "sideeffectsclomipramine",
+  "patterns": ["what are the side effects of clomipramine","side effects of clomipramine"],
+  "responses": ["Side effects of clomipramine may include drowsiness, dizziness, dry mouth, constipation, blurred vision, weight changes, increased sweating, sexual dysfunction, changes in heart rate, low blood pressure upon standing, and potential for cardiac arrhythmias."]
+  },
+    
+  {"tag": "Fluoxetine",
+  "patterns": ["what is Fluoxetine","Fluoxetine"],
+  "responses": ["Fluoxetine medications classified as selective serotonin reuptake inhibitors (SSRIs). They are commonly used as antidepressants and can also be prescribed for other conditions such as anxiety disorders and obsessive-compulsive disorder (OCD)."]
+  }, 
+    
+  {"tag": "sideeffectsFluoxetine",
+  "patterns": ["what are the side effects of Fluoxetine","side effects of Fluoxetine"],
+  "responses": ["Side effects of fluoxetine may include nausea, headache, insomnia, drowsiness, nervousness, dry mouth, changes in appetite, weight changes, sexual dysfunction, and potential for serotonin syndrome."]
+  },
+    
+  {"tag": "fluvoxamine",
+  "patterns": ["what is fluvoxamine","fluvoxamine"],
+  "responses": ["fluvoxamine  medications classified as selective serotonin reuptake inhibitors (SSRIs). They are commonly used as antidepressants and can also be prescribed for other conditions such as anxiety disorders and obsessive-compulsive disorder (OCD)."]
+  }, 
+    
+  {"tag": "sideeffectsfluvoxamine",
+  "patterns": ["what are the side effects of fluvoxamine","side effects of fluvoxamine"],
+  "responses": ["Side effects of fluvoxamine may include nausea, vomiting, diarrhea, drowsiness, dizziness, headache, dry mouth, changes in appetite, weight changes, sexual dysfunction, and potential for serotonin syndrome."]
+  },
+    
+  {"tag": "sertraline",
+  "patterns": ["what is sertraline","sertraline"],
+  "responses": ["sertraline medications classified as selective serotonin reuptake inhibitors (SSRIs). They are commonly used as antidepressants and can also be prescribed for other conditions such as anxiety disorders and obsessive-compulsive disorder (OCD)."]
+  }, 
+    
+  {"tag": "sideeffectssertraline",
+  "patterns": ["what are the side effects of sertraline","side effects of sertraline"],
+  "responses": ["Side effects of sertraline may include nausea, diarrhea, dizziness, drowsiness, insomnia, headache, dry mouth, changes in appetite, weight changes, sexual dysfunction, and potential for serotonin syndrome."]
+  },
+    
+  {"tag": "Olanzapine",
+  "patterns": ["what is Olanzapine","Olanzapine"],
+  "responses": ["Olanzapine  medications classified as atypical antipsychotics. It is primarily used to treat conditions such as schizophrenia and bipolar disorder."]
+  }, 
+    
+  {"tag": "sideeffectsOlanzapine",
+  "patterns": ["what are the side effects of Olanzapine", "side effects of Olanzapine"],
+  "responses": ["Side effects of olanzapine may include drowsiness, dizziness, weight gain, increased appetite, dry mouth, constipation, blurred vision, low blood pressure upon standing, tremors, restlessness, and potential for metabolic changes such as elevated blood sugar and cholesterol levels."]
+  },
+    
+  {"tag": "risperidone",
+  "patterns": ["what is risperidone","risperidone"],
+  "responses": ["risperidone medications classified as atypical antipsychotics. It is primarily used to treat conditions such as schizophrenia and bipolar disorder."]
+  }, 
+    
+  {"tag": "sideeffectsrisperidone",
+  "patterns": ["what are the side effects of risperidone","side effects of risperidone"],
+  "responses": ["Side effects of risperidone may include drowsiness, dizziness, tremors, restlessness, increased appetite, weight gain, dry mouth, constipation, blurred vision, low blood pressure upon standing, and potential for metabolic changes such as elevated blood sugar and cholesterol levels."]
+  },
+    
+  {"tag": "antipsychotics",
+  "patterns": ["what is antipsychotics","antipsychotics"],
+  "responses": ["Antipsychotics are a class of medications used to treat psychiatric disorders such as schizophrenia, bipolar disorder, and certain types of depression."]
+  }, 
+    
+  {"tag": "sideeffectsantipsychotics",
+  "patterns": ["what are the side effects of antipsychotics","side effects of antipsychotics"],
+  "responses": ["side effects may include neuroleptic malignant syndrome (a rare but potentially life-threatening reaction), allergic reactions, changes in heart rhythm, low blood pressure, seizures, and increased risk of stroke in elderly patients with dementia."]
+  },
+    
+  {"tag": "Angiotensin receptor blockers",
+  "patterns": ["what is Angiotensin receptor blockers","Angiotensin receptor blockers"],
+  "responses": ["Angiotensin receptor blockers (ARBs) are a class of medications commonly prescribed to treat conditions such as high blood pressure (hypertension) and certain heart conditions."]
+  }, 
+    
+  {"tag": "sideeffectsAngiotensin",
+  "patterns": ["what are the side effects of Angiotensin receptor blockers","side effects of Angiotensin receptor blockers"],
+  "responses": ["Serious side effects are rare but may include allergic reactions, swelling of the face, lips, tongue, or throat, difficulty breathing, rapid or irregular heartbeat, chest pain, fainting, and signs of kidney problems such as decreased urine output or swelling in the legs or feet."]
+  },
+    
+  {"tag": "ACE inhibitors",
+  "patterns": ["what is ACE inhibitors","ACE inhibitors"],
+  "responses": ["ACE inhibitors work by relaxing blood vessels to lower blood pressure."]
+  }, 
+    
+  {"tag": "sideeffectsACE",
+  "patterns": ["what are the side effects of ACE inhibitors","side effects of ACE inhibitors"],
+  "responses": [" Common side effects may include a dry cough, dizziness, fatigue, headache, nausea, and rash. Rare but serious side effects may include allergic reactions, swelling of the face, lips, tongue, or throat, difficulty breathing, and signs of kidney problems."]
+  },
+    
+  {"tag": "Diuretics",
+  "patterns": ["what is Diuretics","Diuretics"],
+  "responses": ["Diuretics, also known as water pills, help remove excess salt and water from the body to lower blood pressure."]
+  }, 
+    
+  {"tag": "sideeffectsDiuretics",
+  "patterns": ["what are the side effects of Diuretics","side effects of Diuretics"],
+  "responses": [" Common side effects may include increased urination, dizziness, electrolyte imbalances, muscle cramps, and increased sensitivity to sunlight. Rare but serious side effects may include allergic reactions, severe electrolyte imbalances, and changes in blood sugar levels."]
+  },
+    
+  {"tag": "Calcium channel blockers",
+  "patterns": ["what is Calcium channel blockers","Calcium channel blockers"],
+  "responses": ["Calcium channel blockers help relax and widen blood vessels to improve blood flow and lower blood pressure."]
+  }, 
+    
+  {"tag": "sideeffectsCalcium",
+  "patterns": ["what are the side effects of Calcium channel blockers","side effects of Calcium channel blockers"],
+  "responses": [" Common side effects may include dizziness, flushing, headache, swollen ankles, constipation, and low blood pressure. Rare but serious side effects may include heart rhythm disturbances, allergic reactions, and liver problems."]
+  },
+    
+  {"tag": "Non-benzodiazepine hypnotics",
+  "patterns": ["what is Non-benzodiazepine hypnotics","Non-benzodiazepine hypnotics"],
+  "responses": ["Non-benzodiazepine hypnotics, also known as Z-drugs, are a class of medications used to treat insomnia. They work by targeting the same receptors as benzodiazepines but have a different chemical structure."]
+  }, 
+    
+  {"tag": "sideeffectshypnotics",
+  "patterns": ["what are the side effects of Non-benzodiazepine hypnotics","side effects of Non-benzodiazepine hypnotics"],
+  "responses": ["The common non-benzodiazepine hypnotics include Zolpidem (Ambien), Zaleplon (Sonata), and Eszopiclone (Lunesta).Side effects of non-benzodiazepine hypnotics may include drowsiness, dizziness, headache, next-day grogginess, memory problems, confusion, hallucinations, sleepwalking, sleep-eating, and potential allergic reactions. Other less common side effects may include gastrointestinal disturbances, changes in appetite, dry mouth, and coordination difficulties."]
+  },
+    
+  {"tag": "Melatonin receptor agonists",
+  "patterns": ["what is Melatonin receptor agonists","Melatonin receptor agonists"],
+  "responses": ["Melatonin receptor agonists are a class of medications used to regulate sleep-wake cycles and treat sleep disorders such as insomnia. They work by binding to melatonin receptors in the brain, mimicking the effects of the hormone melatonin."]
+  }, 
+    
+  {"tag": "sideeffectsMelatonin ",
+  "patterns": ["what are the side effects of Melatonin receptor agonists","side effects of Melatonin receptor agonists"],
+  "responses": ["The common melatonin receptor agonists include Ramelteon (Rozerem) and Tasimelteon (Hetlioz).Side effects of melatonin receptor agonists may include drowsiness, dizziness, headache, fatigue, nausea, and potential allergic reactions. Other less common side effects may include changes in mood, vivid dreams, sleep disturbances, and gastrointestinal symptoms."]
+  },
+    
+  {"tag": "Paroxetine",
+  "patterns": ["what is Paroxetine","Paroxetine"],
+  "responses": ["Paroxetine is a medication classified as a selective serotonin reuptake inhibitor (SSRI) commonly used to treat depression, anxiety disorders, obsessive-compulsive disorder (OCD), and other conditions."]
+  }, 
+    
+  {"tag": "sideeffectsParoxetine",
+  "patterns": ["what are the side effects of Paroxetine","side effects of Paroxetine"],
+  "responses": ["Side effects of paroxetine may include nausea, diarrhea, drowsiness, dizziness, headache, insomnia, dry mouth, sweating, sexual dysfunction, weight changes, and changes in appetite. It may also cause agitation, restlessness, or an increase in anxiety symptoms in some individuals"]
+  },
+    
+  {"tag": "Sertraline",
+  "patterns": ["what is Sertraline","Sertraline"],
+  "responses": ["Sertraline is a medication classified as a selective serotonin reuptake inhibitor (SSRI) commonly used to treat depression, anxiety disorders, obsessive-compulsive disorder (OCD), and other conditions."]
+  }, 
+    
+  {"tag": "sideeffectsSertraline",
+  "patterns": ["what are the side effects of Sertraline","side effects of Sertraline"],
+  "responses": ["Side effects of sertraline may include nausea, diarrhea, dizziness, drowsiness, insomnia, dry mouth, sweating, sexual dysfunction, weight changes, and changes in appetite. Some individuals may also experience headaches, tremors, restlessness, or agitation."]
+  },
+    
+  {"tag": "Buspirone",
+  "patterns": ["what is Buspirone","Buspirone"],
+  "responses": ["Buspirone is define as antianxiety medication that reduces the physical symptoms of anxiety. Buspirone can take several weeks to take effect."]
+  }, 
+    
+  {"tag": "sideeffectsBuspirone",
+  "patterns": ["what are the side effects of Buspirone","side effects of Buspirone"],
+  "responses": ["side effects of buspirone areChest painfast or pounding heartbeat.incoordination.mental depression.muscle weakness.numbness, tingling, pain, or weakness in the hands or feet.skin rash or hives.sore throat."]
+  },
+    
+  {"tag": "testdepression",
+  "patterns": ["what are the medical test for  depression","medical test for  depression"],
+  "responses": [" Depression Symptom Questionnaires: Assessing the severity and nature of depressive symptoms.Beck Depression Inventory (BDI): A widely used self-report questionnaire to measure the severity of depression symptoms.Hamilton Rating Scale for Depression (HAM-D): A clinician-administered questionnaire to assess the severity of depression symptoms."]
+  },
+    
+  {"tag": "testAnxiety",
+  "patterns": ["what are the medical test for  Anxiety","medical test for  Anxiety"],
+  "responses": [" Generalized Anxiety Disorder 7 (GAD-7): A self-report questionnaire to assess the severity of generalized anxiety symptoms.Hamilton Anxiety Rating Scale (HAM-A): A clinician-administered questionnaire to assess the severity of anxiety symptoms.Anxiety Sensitivity Index (ASI): Assesses the fear of anxiety-related symptoms."]
+  },
+    
+  {"tag": "testAddictive",
+  "patterns": ["what are the medical test for  Addictive Disorder","medical test for  Addictive Disorder"],
+  "responses": [" Substance Abuse Subtle Screening Inventory (SASSI): A self-report questionnaire to assess the likelihood of substance abuse or dependence.CAGE questionnaire: A brief screening tool for alcohol misuse.Drug Testing: Physical examination or laboratory tests to detect the presence of drugs in the body."]
+  },
+    
+  {"tag": "testSleep ",
+  "patterns": ["what are the medical test for  Sleep Disorder","medical test for  Sleep Disorder"],
+  "responses": ["  Sleep Diary: Recording sleep patterns, duration, and quality over a certain period.Polysomnography (PSG): Measures brain waves, heart rate, breathing, and other body functions during sleep.Multiple Sleep Latency Test (MSLT): Measures the time it takes to fall asleep in a controlled daytime environment."]
+  },
+    
+  {"tag": "testDissociative ",
+  "patterns": ["what are the medical test for  Dissociative Disorder","medical test for  Dissociative Disorder"],
+  "responses": [" Dissociative Experiences Scale (DES): Assesses the frequency and severity of dissociative experiences.Clinician-Administered Dissociative States Scale (CADSS): Evaluates the presence and intensity of dissociative symptoms.Structured Clinical Interview for DSM-5 (SCID-D): A diagnostic interview to assess dissociative symptoms."]
+  },
+    
+  {"tag": "testAutism",
+  "patterns": ["what are the medical test for  Autism Spectrum Disorder (ASD)","medical test for  Autism Spectrum Disorder (ASD)"],
+  "responses": ["Autism Diagnostic Observation Schedule (ADOS): A standardized observational assessment to evaluate social communication and interaction in individuals suspected of ASD.Autism Diagnostic Interview-Revised (ADI-R): A comprehensive interview with parents or caregivers to assess symptoms of ASD."]
+  },
+    
+  {"tag": "testAttention",
+  "patterns": ["what are the medical test for  Attention-Deficit/Hyperactivity Disorder ","medical test for  Attention-Deficit/Hyperactivity Disorder "],
+  "responses": [" Conners' Rating Scales: Questionnaires completed by parents, teachers, and individuals to assess ADHD symptoms.Continuous Performance Test (CPT): Measures attention, impulsivity, and hyperactivity.Vanderbilt Assessment Scale: Assesses ADHD symptoms in children and adolescents."]
+  },
+    
+  {"tag": "testEating ",
+  "patterns": ["what are the medical test for  Eating Disorder","medical test for  Eating Disorder"],
+  "responses": [" Eating Disorder Examination (EDE): A semi-structured interview to assess eating disorder symptoms and behaviors.Body Mass Index (BMI): A calculation based on height and weight to assess weight status.Blood tests: May be conducted to assess nutritional deficiencies or complications related to eating disorders."]
+  },
+    
+  {"tag": "testHypertension",
+  "patterns": ["what are the medical test for  Hypertension","medical test for  Hypertension"],
+  "responses": [" Blood Pressure Measurement: Assessing blood pressure levels using a sphygmomanometer.Blood Tests: Checking for underlying medical conditions contributing to hypertension.Electrocardiogram (ECG): Evaluating heart function and detecting abnormalities."]
+  },
+    
+  {"tag": "testBipolar",
+  "patterns": ["what are the medical test for  Bipolar Disorder","medical test for  Bipolar Disorder"],
+  "responses": [" Mood Disorder Questionnaires: Assessing mood symptoms and fluctuations.Young Mania Rating Scale (YMRS): Evaluating the severity of manic symptoms.Bipolar Spectrum Diagnostic Scale (BSDS): A self-report questionnaire to assess the likelihood of bipolar spectrum disorders."]
+  },
+ 
+  {"tag": "testsocial",
+  "patterns": ["what are the medical test for social anxiety disorder","medical test for  social anxiety disorder","medical test for  sad"],
+  "responses": [" Structured Clinical Interview for DSM-5 (SCID): A diagnostic interview conducted by a mental health professional to evaluate the symptoms and criteria for social anxiety disorder.Liebowitz Social Anxiety Scale (LSAS): A questionnaire-based assessment tool that measures the severity of social anxiety symptoms and their impact on daily life.Social Phobia Inventory (SPIN): A self-report questionnaire that assesses the severity of social anxiety symptoms and their interference with social functioning.Clinical Global Impressions (CGI) Scale: A clinician-rated scale that evaluates the overall severity of social anxiety symptoms and the level of improvement with treatment.Fear of Negative Evaluation (FNE) Scale: A self-report measure that assesses the fear of being negatively evaluated or judged by others, which is a core feature of social anxiety disorder."]
+  },
+    
+  {"tag": "testObsessive",
+  "patterns": ["what are the medical test for  Obsessive-Compulsive Disorder (OCD)","medical test for  Obsessive-Compulsive Disorder (OCD)"],
+  "responses": [" Yale-Brown Obsessive Compulsive Scale (Y-BOCS): Assesses the severity of obsessive-compulsive symptoms.Structured Clinical Interview for DSM-5 (SCID): A diagnostic interview to assess OCD symptoms.Obsessive Compulsive Inventory (OCI):OCI is a self-report questionnaire that evaluates the presence and severity of OCD symptoms. It assesses different domains of OCD, such as checking, washing, and obsessing, providing insight into specific symptoms experienced by individuals."]
+  },
+    
+  {"tag": "testPanic ",
+  "patterns": ["what are the medical test for Panic Disorder","medical test for Panic Disorder"],
+  "responses": ["  Panic Disorder Severity Scale (PDSS):PDSS is a clinician-administered scale used to assess the severity of panic disorder symptoms. It measures the frequency and intensity of panic attacks, anticipatory anxiety, and agoraphobia-related symptoms.Panic and Agoraphobia Scale (PAS):PAS is a self-report questionnaire that assesses the severity of panic disorder and agoraphobia symptoms. It measures panic attack frequency, anticipatory anxiety, and avoidance behaviors associated with specific situations or places.Structured Clinical Interview for DSM-5 (SCID):SCID is a standardized diagnostic interview used to assess psychiatric disorders, including panic disorder. It follows a structured format and criteria outlined in DSM-5 to make an accurate diagnosis based on an individual's symptoms and history."]
+   },
+    
+  {"tag": "docdepression",
+  "patterns": ["list of best doctors in pune to diagnos  depression","doctors in pune to diagnos  depression"],
+  "responses": [" link = https://www.practo.com/pune/doctors-for-depression-treatment"]
+   },
+
+  {"tag": "docanixety",
+  "patterns": ["list of best doctors in pune to diagnos  anxiety","doctors in pune to diagnos  anxiety"],
+  "responses": ["link =  https://www.practo.com/pune/doctors-for-anxiety-disorders-treatment"]
+   },
+
+  {"tag": "docAddictive",
+  "patterns": ["list of best doctors in pune to diagnos  Addictive Disorder","doctors in pune to diagnos  Addictive Disorder"],
+  "responses": ["link = https://www.clinicspots.com/addiction-psychiatrist/pune"]
+   },
+   
+  {"tag": "docSleep",
+  "patterns": ["list of best doctors in pune to diagnos  Sleep Disorder","doctors in pune to diagnos  Sleep Disorder"],
+  "responses": ["link = https://www.practo.com/pune/treatment-for-sleep-disorders"]
+   },
+   
+  {"tag": "docDissociative",
+  "patterns": ["list of best doctors in pune to diagnos  Dissociative Disorder","doctors in pune to diagnos  Dissociative Disorder"],
+  "responses": ["link =  https://www.credihealth.com/doctors/pune/dissociative-disorder"]
+   },
+   
+  {"tag": "docAutism",
+  "patterns": ["list of best doctors in pune to diagnos  Autism Spectrum Disorder","doctors in pune to diagnos  Autism Spectrum Disorder"],
+  "responses": ["link = https://www.practo.com/pune/treatment-for-autism"]
+   },
+
+  {"tag": "docADHD",
+  "patterns": ["list of best doctors in pune to diagnos  ADHD","best doctors in pune to diagnos  ADHD"],
+  "responses": ["link = https://www.practo.com/pune/doctors-for-attention-deficit-hyperactivity-disorder-adhd-treatment"]
+   },
+   
+  {"tag": "docEating",
+  "patterns": ["list of best doctors in pune to diagnos  Eating Disorder","doctors in pune to diagnos  Eating Disorder"],
+  "responses": ["link = https://www.credihealth.com/doctors/pune/eating-disorders"]
+   },
+    
+  {"tag": "docHypertension:",
+  "patterns": ["list of best doctors in pune to diagnos  Hypertension","doctors in pune to diagnos  Hypertension"],
+  "responses": ["link = https://www.credihealth.com/doctors/pune/hypertension"]
+   },
+   
+  {"tag": "docBipolar",
+  "patterns": ["list of best doctors in pune to diagnos  Bipolar Disorder","doctors in pune to diagnos  Bipolar Disorder"],
+  "responses": [" link = https://www.practo.com/pune/doctors-for-bipolar-disorder-treatment"]
+   },
+    
+  {"tag": "docObsessive",
+  "patterns": ["list of best doctors in pune to diagnos  Obsessive-Compulsive Disorder","doctors in pune to diagnos  Obsessive-Compulsive Disorder"],
+  "responses": ["link = https://www.practo.com/pune/doctors-for-obsessive-compulsive-disorder-ocd-treatment"]
+   },
+    
+  {"tag": "docPanic ",
+  "patterns": ["list of best doctors in pune to diagnos  panic disorder","doctors in pune to diagnos  panic disorder"],
+  "responses": ["link = https://www.practo.com/pune/therapies-for-panic"]
+   },
+    
+  {"tag": "docsad ",
+  "patterns": ["list of best doctors in pune to diagnos  social anxiety disorder","doctors in pune to diagnos  social anxiety disorder","doctors in pune to diagnos  sad"],
+  "responses": ["link = https://www.lybrate.com/pune/treatment-for-social-anxiety-disorder"]
+   },
+    
+  {"tag": "riskdepression",
+  "patterns": ["what are the risk factors of depression","risk factors of depression"],
+  "responses": [" Family history of depression,Personal or family history of other mental health disorders,Major life changes, trauma, or stressful events,Chronic medical conditions,Substance abuse or addiction"]
+   },
+
+  {"tag": "riskanixety",
+  "patterns": ["what are the risk factors of anxiety"," risk factors of  anxiety"],
+  "responses": ["Family history of anxiety or other mental health disorders,History of trauma or abuse,Chronic medical conditions or illness,Substance abuse or addiction,Certain personality traits, such as perfectionism or high levels of stress"]
+   },
+
+  {"tag": "riskAddictive",
+  "patterns": ["what are the risk factors of Addictive Disorder","risk factors of  Addictive Disorder"],
+  "responses": ["Family history of addiction,Personal history of substance abuse or addiction,History of trauma or abuse,Co-occurring mental health disorders,Environmental factors, such as easy access to substances or peer influence"]
+   },
+   
+  {"tag": "riskSleep",
+  "patterns": ["what are the risk factors of Sleep Disorder","risk factors of Sleep Disorder"],
+  "responses": ["Stressful life events,Irregular sleep schedule or poor sleep hygiene,Certain medical conditions, such as sleep apnea or restless leg syndrome,Substance abuse or medication side effects,Mental health disorders, such as anxiety or depression"]
+   },
+   
+  {"tag": "riskDissociative",
+  "patterns": ["what are the risk factors of Dissociative Disorder","risk factors of Dissociative Disorder"],
+  "responses": ["History of trauma or abuse, especially during childhood,High levels of stress or ongoing exposure to traumatic events,Certain personality traits, such as susceptibility to dissociation or fantasy-proneness,Co-occurring mental health disorders, such as post-traumatic stress disorder (PTSD) or borderline personality disorder"]
+   },
+   
+  {"tag": "riskAutism",
+  "patterns": ["what are the risk factors of Autism Spectrum Disorder","risk factors of  Autism Spectrum Disorder"],
+  "responses": ["Genetic factors and family history of ASD,Advanced parental age at the time of conception,Certain medical conditions or genetic syndromes,Exposure to environmental factors during pregnancy or early childhood,Differences in brain structure and function"]
+   },
+
+  {"tag": "riskADHD",
+  "patterns": ["what are the risk factors of ADHD","risk factors of  ADHD"],
+  "responses": ["Genetic factors and family history of ADHD,Premature birth or low birth weight,Exposure to environmental toxins, such as lead, during pregnancy or early childhood,Maternal use of tobacco, alcohol, or drugs during pregnancy,Brain injury or neurological conditions"]
+   },
+   
+  {"tag": "riskEating",
+  "patterns": ["what are the risk factors of Eating Disorder","risk factors of  Eating Disorder"],
+  "responses": ["Genetic factors and family history of eating disorders,Body dissatisfaction or negative body image,Cultural and societal pressures related to body shape and weight,History of trauma or abuse,Perfectionism and other personality traits"]
+   },
+    
+  {"tag": "riskHypertension:",
+  "patterns": ["what are the risk factors of  Hypertension","risk factors of Hypertension"],
+  "responses": ["Family history of hypertension,Aging,Poor diet high in sodium and low in potassium,Sedentary lifestyle and lack of physical activity,Obesity or overweight"]
+   },
+   
+  {"tag": "riskBipolar",
+  "patterns": ["what are the risk factors of  Bipolar Disorder","risk factors of Bipolar Disorder"],
+  "responses": [" Family history of bipolar disorder or other mood disorders,Significant life stressors or major life changes,Substance abuse or addiction,Traumatic events or childhood adversity,Certain medical conditions or medications"]
+   },
+    
+  {"tag": "riskObsessive",
+  "patterns": ["what are the risk factors of  Obsessive-Compulsive Disorder","risk factors of  Obsessive-Compulsive Disorder"],
+  "responses": ["Genetic factors and family history of OCD or related disorders,History of trauma or abuse,Imbalance in brain chemicals, such as serotonin,Stressful life events,Certain personality traits, such as perfectionism or excessive need for control"]
+   },
+    
+  {"tag": "riskPanic ",
+  "patterns": ["what are the risk factors of  panic disorder","risk factors of  panic disorder"],
+  "responses": ["Family history of panic disorder or other anxiety disorders,Major life stressors or traumatic events,History of childhood physical or sexual abuse,Certain changes in brain function or brain chemicals,Co-occurring mental health disorders, such as depression or substance abuse"]
+   },
+    
+  {"tag": "risksad ",
+  "patterns": ["what are the risk factors of  social anxiety disorder"," risk factors of social anxiety disorder","doctors in pune to diagnos  sad"],
+  "responses": ["Family history of anxiety disorders,Traumatic experiences or negative social experiences in childhood,Overprotective or controlling parenting style,Low self-esteem or negative self-image,Co-occurring mental health disorders, such as depression or substance abuse"]
+   },
+    
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+    
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please ask me valid question", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
